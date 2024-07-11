@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.001594] (quadruped_model) JobQueued: {'identifier': 'quadruped_model', 'dependencies': OrderedDict()}
+[0.001631] (quadruped_model) JobStarted: {'identifier': 'quadruped_model'}
+[0.099990] (-) TimerEvent: {}
+[0.200449] (-) TimerEvent: {}
+[0.301067] (-) TimerEvent: {}
+[0.401412] (-) TimerEvent: {}
+[0.501795] (-) TimerEvent: {}
+[0.602279] (-) TimerEvent: {}
+[0.702672] (-) TimerEvent: {}
+[0.802992] (-) TimerEvent: {}
+[0.903310] (-) TimerEvent: {}
+[1.003669] (-) TimerEvent: {}
+[1.104097] (-) TimerEvent: {}
+[1.155393] (quadruped_model) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/quadruped_model', 'build', '--build-base', '/home/maranmen/Quadruped_8DOF/build/quadruped_model/build', 'install', '--record', '/home/maranmen/Quadruped_8DOF/build/quadruped_model/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/maranmen/Quadruped_8DOF/src/quadruped_model', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'maranmen', 'LC_TIME': 'es_EC.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/maranmen', 'OLDPWD': '/home/maranmen/Quadruped_8DOF/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_EC.UTF-8', 'MANAGERPID': '1047', 'SYSTEMD_EXEC_PID': '1292', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4881', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'maranmen', 'JOURNAL_STREAM': '8:33431', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'maranmen', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/martin-ros2:@/tmp/.ICE-unix/1252,unix/martin-ros2:/tmp/.ICE-unix/1252', 'INVOCATION_ID': '338c5d7869104385bdac2f1d737d7470', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_EC.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_EC.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZBUEP2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_EC.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:c525e3e9-b55e-48a2-98fe-95d19077c40f', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_EC.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'es_EC.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/maranmen/Quadruped_8DOF/build/quadruped_model', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/maranmen/Quadruped_8DOF/build/quadruped_model/prefix_override:/home/maranmen/Quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_EC.UTF-8', 'LC_PAPER': 'es_EC.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.204258] (-) TimerEvent: {}
+[1.304740] (-) TimerEvent: {}
+[1.405156] (-) TimerEvent: {}
+[1.421440] (quadruped_model) StdoutLine: {'line': b'running egg_info\n'}
+[1.422004] (quadruped_model) StdoutLine: {'line': b'creating ../../build/quadruped_model/quadruped_model.egg-info\n'}
+[1.422151] (quadruped_model) StdoutLine: {'line': b'writing ../../build/quadruped_model/quadruped_model.egg-info/PKG-INFO\n'}
+[1.422401] (quadruped_model) StdoutLine: {'line': b'writing dependency_links to ../../build/quadruped_model/quadruped_model.egg-info/dependency_links.txt\n'}
+[1.422550] (quadruped_model) StdoutLine: {'line': b'writing entry points to ../../build/quadruped_model/quadruped_model.egg-info/entry_points.txt\n'}
+[1.422668] (quadruped_model) StdoutLine: {'line': b'writing requirements to ../../build/quadruped_model/quadruped_model.egg-info/requires.txt\n'}
+[1.422735] (quadruped_model) StdoutLine: {'line': b'writing top-level names to ../../build/quadruped_model/quadruped_model.egg-info/top_level.txt\n'}
+[1.422905] (quadruped_model) StdoutLine: {'line': b"writing manifest file '../../build/quadruped_model/quadruped_model.egg-info/SOURCES.txt'\n"}
+[1.424561] (quadruped_model) StdoutLine: {'line': b"reading manifest file '../../build/quadruped_model/quadruped_model.egg-info/SOURCES.txt'\n"}
+[1.425327] (quadruped_model) StdoutLine: {'line': b"writing manifest file '../../build/quadruped_model/quadruped_model.egg-info/SOURCES.txt'\n"}
+[1.425493] (quadruped_model) StdoutLine: {'line': b'running build\n'}
+[1.425748] (quadruped_model) StdoutLine: {'line': b'running build_py\n'}
+[1.425860] (quadruped_model) StdoutLine: {'line': b'creating /home/maranmen/Quadruped_8DOF/build/quadruped_model/build\n'}
+[1.425929] (quadruped_model) StdoutLine: {'line': b'creating /home/maranmen/Quadruped_8DOF/build/quadruped_model/build/lib\n'}
+[1.425987] (quadruped_model) StdoutLine: {'line': b'creating /home/maranmen/Quadruped_8DOF/build/quadruped_model/build/lib/quadruped_model\n'}
+[1.426076] (quadruped_model) StdoutLine: {'line': b'copying quadruped_model/__init__.py -> /home/maranmen/Quadruped_8DOF/build/quadruped_model/build/lib/quadruped_model\n'}
+[1.426347] (quadruped_model) StdoutLine: {'line': b'running install\n'}
+[1.426664] (quadruped_model) StdoutLine: {'line': b'running install_lib\n'}
+[1.427408] (quadruped_model) StdoutLine: {'line': b'creating /home/maranmen/Quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model\n'}
+[1.427544] (quadruped_model) StdoutLine: {'line': b'copying /home/maranmen/Quadruped_8DOF/build/quadruped_model/build/lib/quadruped_model/__init__.py -> /home/maranmen/Quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model\n'}
+[1.428082] (quadruped_model) StdoutLine: {'line': b'byte-compiling /home/maranmen/Quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model/__init__.py to __init__.cpython-310.pyc\n'}
+[1.428286] (quadruped_model) StdoutLine: {'line': b'running install_data\n'}
+[1.428406] (quadruped_model) StdoutLine: {'line': b'creating /home/maranmen/Quadruped_8DOF/install/quadruped_model/share/ament_index\n'}
+[1.428477] (quadruped_model) StdoutLine: {'line': b'creating /home/maranmen/Quadruped_8DOF/install/quadruped_model/share/ament_index/resource_index\n'}
+[1.428574] (quadruped_model) StdoutLine: {'line': b'creating /home/maranmen/Quadruped_8DOF/install/quadruped_model/share/ament_index/resource_index/packages\n'}
+[1.428639] (quadruped_model) StdoutLine: {'line': b'copying resource/quadruped_model -> /home/maranmen/Quadruped_8DOF/install/quadruped_model/share/ament_index/resource_index/packages\n'}
+[1.428779] (quadruped_model) StdoutLine: {'line': b'copying package.xml -> /home/maranmen/Quadruped_8DOF/install/quadruped_model/share/quadruped_model\n'}
+[1.429030] (quadruped_model) StdoutLine: {'line': b'creating /home/maranmen/Quadruped_8DOF/install/quadruped_model/share/quadruped_model/urdf\n'}
+[1.429133] (quadruped_model) StdoutLine: {'line': b'copying urdf/quadruped_DOF_URDF.urdf -> /home/maranmen/Quadruped_8DOF/install/quadruped_model/share/quadruped_model/urdf\n'}
+[1.429245] (quadruped_model) StdoutLine: {'line': b'creating /home/maranmen/Quadruped_8DOF/install/quadruped_model/share/quadruped_model/launch\n'}
+[1.429427] (quadruped_model) StdoutLine: {'line': b'copying launch/display.launch.py -> /home/maranmen/Quadruped_8DOF/install/quadruped_model/share/quadruped_model/launch\n'}
+[1.429579] (quadruped_model) StdoutLine: {'line': b'creating /home/maranmen/Quadruped_8DOF/install/quadruped_model/share/quadruped_model/meshes\n'}
+[1.429658] (quadruped_model) StdoutLine: {'line': b'copying meshes/footFL_link.STL -> /home/maranmen/Quadruped_8DOF/install/quadruped_model/share/quadruped_model/meshes\n'}
+[1.430192] (quadruped_model) StdoutLine: {'line': b'copying meshes/footBL_link.STL -> /home/maranmen/Quadruped_8DOF/install/quadruped_model/share/quadruped_model/meshes\n'}
+[1.430629] (quadruped_model) StdoutLine: {'line': b'copying meshes/footFR_link.STL -> /home/maranmen/Quadruped_8DOF/install/quadruped_model/share/quadruped_model/meshes\n'}
+[1.431058] (quadruped_model) StdoutLine: {'line': b'copying meshes/legBL_link.STL -> /home/maranmen/Quadruped_8DOF/install/quadruped_model/share/quadruped_model/meshes\n'}
+[1.431874] (quadruped_model) StdoutLine: {'line': b'copying meshes/legFL_link.STL -> /home/maranmen/Quadruped_8DOF/install/quadruped_model/share/quadruped_model/meshes\n'}
+[1.432596] (quadruped_model) StdoutLine: {'line': b'copying meshes/legFR_link.STL -> /home/maranmen/Quadruped_8DOF/install/quadruped_model/share/quadruped_model/meshes\n'}
+[1.433481] (quadruped_model) StdoutLine: {'line': b'copying meshes/footBR_link.STL -> /home/maranmen/Quadruped_8DOF/install/quadruped_model/share/quadruped_model/meshes\n'}
+[1.433888] (quadruped_model) StdoutLine: {'line': b'copying meshes/legBR_link.STL -> /home/maranmen/Quadruped_8DOF/install/quadruped_model/share/quadruped_model/meshes\n'}
+[1.434640] (quadruped_model) StdoutLine: {'line': b'copying meshes/base_link.STL -> /home/maranmen/Quadruped_8DOF/install/quadruped_model/share/quadruped_model/meshes\n'}
+[1.437335] (quadruped_model) StdoutLine: {'line': b'creating /home/maranmen/Quadruped_8DOF/install/quadruped_model/share/quadruped_model/worlds\n'}
+[1.437539] (quadruped_model) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.439364] (quadruped_model) StdoutLine: {'line': b'Copying ../../build/quadruped_model/quadruped_model.egg-info to /home/maranmen/Quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model-0.0.0-py3.10.egg-info\n'}
+[1.440278] (quadruped_model) StdoutLine: {'line': b'running install_scripts\n'}
+[1.463803] (quadruped_model) StdoutLine: {'line': b"writing list of installed files to '/home/maranmen/Quadruped_8DOF/build/quadruped_model/install.log'\n"}
+[1.488263] (quadruped_model) CommandEnded: {'returncode': 0}
+[1.499325] (quadruped_model) JobEnded: {'identifier': 'quadruped_model', 'rc': 0}
+[1.500786] (-) EventReactorShutdown: {}

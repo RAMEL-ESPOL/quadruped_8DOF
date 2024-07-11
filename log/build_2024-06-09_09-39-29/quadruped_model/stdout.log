@@ -1,0 +1,17 @@
+running egg_info
+writing ../../build/quadruped_model/quadruped_model.egg-info/PKG-INFO
+writing dependency_links to ../../build/quadruped_model/quadruped_model.egg-info/dependency_links.txt
+writing entry points to ../../build/quadruped_model/quadruped_model.egg-info/entry_points.txt
+writing requirements to ../../build/quadruped_model/quadruped_model.egg-info/requires.txt
+writing top-level names to ../../build/quadruped_model/quadruped_model.egg-info/top_level.txt
+reading manifest file '../../build/quadruped_model/quadruped_model.egg-info/SOURCES.txt'
+writing manifest file '../../build/quadruped_model/quadruped_model.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+copying launch/gazebo.launch.py -> /home/maranmen/Quadruped_8DOF/install/quadruped_model/share/quadruped_model/launch
+running install_egg_info
+removing '/home/maranmen/Quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/quadruped_model/quadruped_model.egg-info to /home/maranmen/Quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/maranmen/Quadruped_8DOF/build/quadruped_model/install.log'
