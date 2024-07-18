@@ -1,0 +1,40 @@
+[5.276s] Invoking command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model': PYTHONPATH=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/quadruped_model build --build-base /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/build install --record /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/install.log --single-version-externally-managed install_data
+[7.474s] running egg_info
+[7.477s] creating ../../build/quadruped_model/quadruped_model.egg-info
+[7.478s] writing ../../build/quadruped_model/quadruped_model.egg-info/PKG-INFO
+[7.483s] writing dependency_links to ../../build/quadruped_model/quadruped_model.egg-info/dependency_links.txt
+[7.484s] writing entry points to ../../build/quadruped_model/quadruped_model.egg-info/entry_points.txt
+[7.491s] writing requirements to ../../build/quadruped_model/quadruped_model.egg-info/requires.txt
+[7.494s] writing top-level names to ../../build/quadruped_model/quadruped_model.egg-info/top_level.txt
+[7.495s] writing manifest file '../../build/quadruped_model/quadruped_model.egg-info/SOURCES.txt'
+[7.500s] reading manifest file '../../build/quadruped_model/quadruped_model.egg-info/SOURCES.txt'
+[7.505s] writing manifest file '../../build/quadruped_model/quadruped_model.egg-info/SOURCES.txt'
+[7.508s] running build
+[7.514s] running install
+[7.518s] running install_data
+[7.519s] creating /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/ament_index
+[7.520s] creating /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/ament_index/resource_index
+[7.521s] creating /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/ament_index/resource_index/packages
+[7.542s] copying resource/quadruped_model -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/ament_index/resource_index/packages
+[7.559s] copying package.xml -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model
+[7.560s] creating /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/urdf
+[7.560s] copying urdf/quadruped_SimpleModel.urdf -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/urdf
+[7.561s] creating /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/launch
+[7.561s] copying launch/display.launch.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/launch
+[7.561s] copying launch/gazebo.launch.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/launch
+[7.561s] creating /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/meshes
+[7.578s] copying meshes/foot_FR_link.STL -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/meshes
+[7.578s] copying meshes/leg_FL_link.STL -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/meshes
+[7.579s] copying meshes/leg_BR_link.STL -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/meshes
+[7.579s] copying meshes/foot_BL_link.STL -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/meshes
+[7.579s] copying meshes/base_link.STL -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/meshes
+[7.585s] copying meshes/foot_BR_link.STL -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/meshes
+[7.642s] copying meshes/leg_BL_link.STL -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/meshes
+[7.726s] copying meshes/foot_FL_link.STL -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/meshes
+[7.729s] copying meshes/leg_FR_link.STL -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/meshes
+[7.738s] creating /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/worlds
+[7.738s] running install_egg_info
+[7.761s] Copying ../../build/quadruped_model/quadruped_model.egg-info to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model-0.0.0-py3.10.egg-info
+[7.829s] running install_scripts
+[8.175s] writing list of installed files to '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/install.log'
+[8.388s] Invoked command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model' returned '0': PYTHONPATH=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/quadruped_model build --build-base /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/build install --record /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/install.log --single-version-externally-managed install_data

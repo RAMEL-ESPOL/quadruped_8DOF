@@ -1,0 +1,9 @@
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg/CMakeFiles/uninstall.dir
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg/CMakeFiles/quadruped_model_msg_uninstall.dir
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg/CMakeFiles/test.dir
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg/CMakeFiles/edit_cache.dir
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg/CMakeFiles/rebuild_cache.dir
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg/CMakeFiles/list_install_components.dir
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg/CMakeFiles/install.dir
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg/CMakeFiles/install/local.dir
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg/CMakeFiles/install/strip.dir

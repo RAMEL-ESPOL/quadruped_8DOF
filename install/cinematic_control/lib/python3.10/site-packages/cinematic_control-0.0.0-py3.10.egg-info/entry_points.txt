@@ -1,0 +1,3 @@
+[console_scripts]
+velocity_hip1_cmd = cinematic_control.velocity_hip1_cmd:main
+

@@ -1,0 +1,55 @@
+[0.069s] Invoking command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model/quadruped_model_msg/build/quadruped_model_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model/quadruped_model_msg -DCMAKE_INSTALL_PREFIX=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model/quadruped_model_msg/install/quadruped_model_msg
+[0.121s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.442s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.502s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.512s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.537s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.581s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.618s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.745s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.866s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.089s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.841s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[1.841s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.841s]   quadruped_model_msg --arguments-file
+[1.841s]   /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model/quadruped_model_msg/build/quadruped_model_msg/rosidl_adapter__arguments__quadruped_model_msg.json
+[1.841s]   --output-dir
+[1.841s]   /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model/quadruped_model_msg/build/quadruped_model_msg/rosidl_adapter/quadruped_model_msg
+[1.841s]   --output-file
+[1.842s]   /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model/quadruped_model_msg/build/quadruped_model_msg/rosidl_adapter/quadruped_model_msg.idls)
+[1.842s]   returned error code 1:
+[1.842s] 
+[1.842s]   Error processing 'float32 tauEst' of 'quadruped_model_msg/MotorState':
+[1.842s]   ''tauEst' is an invalid field name.  It should have the pattern
+[1.842s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[1.842s] 
+[1.842s]   Traceback (most recent call last):
+[1.843s] 
+[1.844s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[1.844s]       return _run_code(code, main_globals, None,
+[1.844s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[1.844s]       exec(code, run_globals)
+[1.844s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.845s]       sys.exit(main())
+[1.845s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[1.845s]       abs_idl_file = convert_to_idl(
+[1.845s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[1.845s]       return convert_msg_to_idl(
+[1.845s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[1.845s]       msg = parse_message_string(package_name, input_file.stem, content)
+[1.845s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string
+[1.846s]       fields.append(Field(
+[1.846s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__
+[1.846s]       raise NameError(
+[1.846s] 
+[1.846s]   NameError: 'tauEst' is an invalid field name.  It should have the pattern
+[1.846s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[1.847s] 
+[1.852s] Call Stack (most recent call first):
+[1.853s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.853s]   CMakeLists.txt:19 (rosidl_generate_interfaces)
+[1.853s] 
+[1.853s] [0m
+[1.860s] -- Configuring incomplete, errors occurred!
+[1.860s] See also "/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model/quadruped_model_msg/build/quadruped_model_msg/CMakeFiles/CMakeOutput.log".
+[1.905s] Invoked command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model/quadruped_model_msg/build/quadruped_model_msg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model/quadruped_model_msg -DCMAKE_INSTALL_PREFIX=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model/quadruped_model_msg/install/quadruped_model_msg

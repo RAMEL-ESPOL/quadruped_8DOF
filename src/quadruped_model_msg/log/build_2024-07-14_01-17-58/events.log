@@ -1,0 +1,250 @@
+[0.000000] (-) TimerEvent: {}
+[0.000791] (quadruped_model_msg) JobQueued: {'identifier': 'quadruped_model_msg', 'dependencies': OrderedDict()}
+[0.001615] (quadruped_model_msg) JobStarted: {'identifier': 'quadruped_model_msg'}
+[0.003973] (-) TimerEvent: {}
+[0.105681] (-) TimerEvent: {}
+[0.232368] (-) TimerEvent: {}
+[0.324876] (quadruped_model_msg) JobProgress: {'identifier': 'quadruped_model_msg', 'progress': 'cmake'}
+[0.325607] (quadruped_model_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model/quadruped_model_msg', '-DCMAKE_INSTALL_PREFIX=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model/quadruped_model_msg/install/quadruped_model_msg'], 'cwd': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model/quadruped_model_msg/build/quadruped_model_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'julio'), ('LC_TIME', 'es_EC.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/julio'), ('OLDPWD', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_EC.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1663'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=349f6eeac81be145c8fbe25b669350d9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'julio'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'julio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/julio-virtual-machine:@/tmp/.ICE-unix/1663,unix/julio-virtual-machine:/tmp/.ICE-unix/1663'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_EC.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/45e28bd5_953a_46ee_9119_5ea92752787f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_EC.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BY63Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_EC.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_EC.UTF-8'), ('LC_IDENTIFICATION', 'es_EC.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model/quadruped_model_msg/build/quadruped_model_msg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=349f6eeac81be145c8fbe25b669350d9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_EC.UTF-8'), ('LC_PAPER', 'es_EC.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.717382] (-) TimerEvent: {}
+[0.817968] (-) TimerEvent: {}
+[0.919824] (-) TimerEvent: {}
+[1.020393] (-) TimerEvent: {}
+[1.120989] (-) TimerEvent: {}
+[1.222461] (-) TimerEvent: {}
+[1.324430] (-) TimerEvent: {}
+[1.424977] (-) TimerEvent: {}
+[1.547891] (-) TimerEvent: {}
+[1.649385] (-) TimerEvent: {}
+[1.772197] (-) TimerEvent: {}
+[1.878796] (-) TimerEvent: {}
+[1.980163] (-) TimerEvent: {}
+[2.080651] (-) TimerEvent: {}
+[2.181485] (-) TimerEvent: {}
+[2.282228] (-) TimerEvent: {}
+[2.395833] (-) TimerEvent: {}
+[2.496617] (-) TimerEvent: {}
+[2.597061] (-) TimerEvent: {}
+[2.697521] (-) TimerEvent: {}
+[2.801691] (-) TimerEvent: {}
+[2.902068] (-) TimerEvent: {}
+[3.003970] (-) TimerEvent: {}
+[3.009305] (quadruped_model_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.104203] (-) TimerEvent: {}
+[3.205213] (-) TimerEvent: {}
+[3.305884] (-) TimerEvent: {}
+[3.406324] (-) TimerEvent: {}
+[3.507883] (-) TimerEvent: {}
+[3.608406] (-) TimerEvent: {}
+[3.708855] (-) TimerEvent: {}
+[3.809524] (-) TimerEvent: {}
+[3.910059] (-) TimerEvent: {}
+[4.010776] (-) TimerEvent: {}
+[4.113533] (-) TimerEvent: {}
+[4.214547] (-) TimerEvent: {}
+[4.318390] (-) TimerEvent: {}
+[4.420140] (-) TimerEvent: {}
+[4.520859] (-) TimerEvent: {}
+[4.621299] (-) TimerEvent: {}
+[4.721923] (-) TimerEvent: {}
+[4.822358] (-) TimerEvent: {}
+[4.923895] (-) TimerEvent: {}
+[5.024524] (-) TimerEvent: {}
+[5.125310] (-) TimerEvent: {}
+[5.226172] (-) TimerEvent: {}
+[5.327838] (-) TimerEvent: {}
+[5.429646] (-) TimerEvent: {}
+[5.530237] (-) TimerEvent: {}
+[5.631918] (-) TimerEvent: {}
+[5.732358] (-) TimerEvent: {}
+[5.832945] (-) TimerEvent: {}
+[5.933411] (-) TimerEvent: {}
+[6.034118] (-) TimerEvent: {}
+[6.135828] (-) TimerEvent: {}
+[6.236293] (-) TimerEvent: {}
+[6.336694] (-) TimerEvent: {}
+[6.437550] (-) TimerEvent: {}
+[6.538154] (-) TimerEvent: {}
+[6.639811] (-) TimerEvent: {}
+[6.740439] (-) TimerEvent: {}
+[6.840937] (-) TimerEvent: {}
+[6.941606] (-) TimerEvent: {}
+[7.042083] (-) TimerEvent: {}
+[7.143914] (-) TimerEvent: {}
+[7.244893] (-) TimerEvent: {}
+[7.345510] (-) TimerEvent: {}
+[7.446012] (-) TimerEvent: {}
+[7.546561] (-) TimerEvent: {}
+[7.647863] (-) TimerEvent: {}
+[7.748385] (-) TimerEvent: {}
+[7.849047] (-) TimerEvent: {}
+[7.949677] (-) TimerEvent: {}
+[8.050264] (-) TimerEvent: {}
+[8.151912] (-) TimerEvent: {}
+[8.252729] (-) TimerEvent: {}
+[8.353354] (-) TimerEvent: {}
+[8.453913] (-) TimerEvent: {}
+[8.554379] (-) TimerEvent: {}
+[8.655854] (-) TimerEvent: {}
+[8.756433] (-) TimerEvent: {}
+[8.857096] (-) TimerEvent: {}
+[8.957582] (-) TimerEvent: {}
+[9.058220] (-) TimerEvent: {}
+[9.159915] (-) TimerEvent: {}
+[9.261548] (-) TimerEvent: {}
+[9.362011] (-) TimerEvent: {}
+[9.462748] (-) TimerEvent: {}
+[9.565233] (-) TimerEvent: {}
+[9.665678] (-) TimerEvent: {}
+[9.766417] (-) TimerEvent: {}
+[9.867895] (-) TimerEvent: {}
+[9.968656] (-) TimerEvent: {}
+[10.069378] (-) TimerEvent: {}
+[10.169898] (-) TimerEvent: {}
+[10.271954] (-) TimerEvent: {}
+[10.372401] (-) TimerEvent: {}
+[10.472815] (-) TimerEvent: {}
+[10.573461] (-) TimerEvent: {}
+[10.673987] (-) TimerEvent: {}
+[10.774401] (-) TimerEvent: {}
+[10.876806] (-) TimerEvent: {}
+[10.977501] (-) TimerEvent: {}
+[11.077828] (-) TimerEvent: {}
+[11.178460] (-) TimerEvent: {}
+[11.279894] (-) TimerEvent: {}
+[11.380285] (-) TimerEvent: {}
+[11.480840] (-) TimerEvent: {}
+[11.581571] (-) TimerEvent: {}
+[11.682096] (-) TimerEvent: {}
+[11.782497] (-) TimerEvent: {}
+[11.883884] (-) TimerEvent: {}
+[11.984316] (-) TimerEvent: {}
+[12.084943] (-) TimerEvent: {}
+[12.194953] (-) TimerEvent: {}
+[12.322023] (-) TimerEvent: {}
+[12.449086] (-) TimerEvent: {}
+[12.549532] (-) TimerEvent: {}
+[12.655978] (-) TimerEvent: {}
+[12.756816] (-) TimerEvent: {}
+[12.857627] (-) TimerEvent: {}
+[12.958060] (-) TimerEvent: {}
+[13.058525] (-) TimerEvent: {}
+[13.159889] (-) TimerEvent: {}
+[13.294266] (-) TimerEvent: {}
+[13.430499] (-) TimerEvent: {}
+[13.553296] (-) TimerEvent: {}
+[13.677283] (-) TimerEvent: {}
+[13.833201] (-) TimerEvent: {}
+[13.944241] (-) TimerEvent: {}
+[14.047929] (-) TimerEvent: {}
+[14.148401] (-) TimerEvent: {}
+[14.249563] (-) TimerEvent: {}
+[14.350018] (-) TimerEvent: {}
+[14.450489] (-) TimerEvent: {}
+[14.530512] (quadruped_model_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[14.550600] (-) TimerEvent: {}
+[14.652016] (-) TimerEvent: {}
+[14.755918] (-) TimerEvent: {}
+[14.804274] (quadruped_model_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[14.856348] (-) TimerEvent: {}
+[14.975945] (-) TimerEvent: {}
+[15.103859] (-) TimerEvent: {}
+[15.208289] (-) TimerEvent: {}
+[15.312155] (-) TimerEvent: {}
+[15.412741] (-) TimerEvent: {}
+[15.937034] (-) TimerEvent: {}
+[16.038244] (-) TimerEvent: {}
+[16.140022] (-) TimerEvent: {}
+[16.230084] (quadruped_model_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[16.240297] (-) TimerEvent: {}
+[16.280000] (quadruped_model_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[16.288044] (quadruped_model_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[16.308762] (quadruped_model_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[16.327003] (quadruped_model_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[16.340381] (-) TimerEvent: {}
+[16.445406] (-) TimerEvent: {}
+[16.556018] (-) TimerEvent: {}
+[16.657252] (-) TimerEvent: {}
+[16.761438] (-) TimerEvent: {}
+[16.841161] (quadruped_model_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[16.864145] (-) TimerEvent: {}
+[16.906174] (quadruped_model_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[16.912100] (quadruped_model_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[16.912964] (quadruped_model_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[16.970647] (-) TimerEvent: {}
+[17.120788] (-) TimerEvent: {}
+[17.205218] (quadruped_model_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[17.221030] (-) TimerEvent: {}
+[17.321510] (-) TimerEvent: {}
+[17.422105] (-) TimerEvent: {}
+[17.523902] (-) TimerEvent: {}
+[17.624650] (-) TimerEvent: {}
+[17.725201] (-) TimerEvent: {}
+[17.826422] (-) TimerEvent: {}
+[17.928033] (-) TimerEvent: {}
+[18.029595] (-) TimerEvent: {}
+[18.130216] (-) TimerEvent: {}
+[18.232703] (-) TimerEvent: {}
+[18.333282] (-) TimerEvent: {}
+[18.376337] (quadruped_model_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[18.434173] (-) TimerEvent: {}
+[18.535922] (-) TimerEvent: {}
+[18.636343] (-) TimerEvent: {}
+[18.736955] (-) TimerEvent: {}
+[18.846618] (-) TimerEvent: {}
+[18.949458] (-) TimerEvent: {}
+[19.068336] (-) TimerEvent: {}
+[19.169642] (-) TimerEvent: {}
+[19.270339] (-) TimerEvent: {}
+[19.354282] (quadruped_model_msg) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[19.370479] (-) TimerEvent: {}
+[19.472575] (-) TimerEvent: {}
+[19.573615] (-) TimerEvent: {}
+[19.681000] (-) TimerEvent: {}
+[19.781802] (-) TimerEvent: {}
+[19.884982] (-) TimerEvent: {}
+[19.964751] (quadruped_model_msg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[19.985195] (-) TimerEvent: {}
+[20.086122] (-) TimerEvent: {}
+[20.108531] (quadruped_model_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[20.186452] (-) TimerEvent: {}
+[20.246216] (quadruped_model_msg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[20.296038] (-) TimerEvent: {}
+[20.397659] (-) TimerEvent: {}
+[20.498189] (-) TimerEvent: {}
+[20.533413] (quadruped_model_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[20.598389] (-) TimerEvent: {}
+[20.701534] (-) TimerEvent: {}
+[20.765410] (quadruped_model_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[20.804048] (-) TimerEvent: {}
+[20.904611] (-) TimerEvent: {}
+[21.005195] (-) TimerEvent: {}
+[21.106165] (-) TimerEvent: {}
+[21.214229] (-) TimerEvent: {}
+[21.294001] (quadruped_model_msg) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[21.314383] (-) TimerEvent: {}
+[21.416080] (-) TimerEvent: {}
+[21.521879] (-) TimerEvent: {}
+[21.540282] (quadruped_model_msg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[21.622021] (-) TimerEvent: {}
+[21.722416] (-) TimerEvent: {}
+[21.824073] (-) TimerEvent: {}
+[21.909132] (quadruped_model_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[21.925225] (-) TimerEvent: {}
+[22.025796] (-) TimerEvent: {}
+[22.048293] (quadruped_model_msg) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[22.049193] (quadruped_model_msg) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'msg/MotorCmd.msg' doesn't\n"}
+[22.049749] (quadruped_model_msg) StderrLine: {'line': b'  exist relative to the CMAKE_CURRENT_SOURCE_DIR\n'}
+[22.050157] (quadruped_model_msg) StderrLine: {'line': b"  '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model/quadruped_model_msg'\n"}
+[22.050348] (quadruped_model_msg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[22.051783] (quadruped_model_msg) StderrLine: {'line': b'  CMakeLists.txt:19 (rosidl_generate_interfaces)\n'}
+[22.060233] (quadruped_model_msg) StderrLine: {'line': b'\n'}
+[22.060565] (quadruped_model_msg) StderrLine: {'line': b'\x1b[0m\n'}
+[22.065980] (quadruped_model_msg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[22.068988] (quadruped_model_msg) StdoutLine: {'line': b'See also "/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model/quadruped_model_msg/build/quadruped_model_msg/CMakeFiles/CMakeOutput.log".\n'}
+[22.102125] (quadruped_model_msg) CommandEnded: {'returncode': 1}
+[22.136039] (-) TimerEvent: {}
+[22.236680] (-) TimerEvent: {}
+[22.337251] (-) TimerEvent: {}
+[22.359114] (quadruped_model_msg) JobEnded: {'identifier': 'quadruped_model_msg', 'rc': 1}
+[22.362401] (-) EventReactorShutdown: {}

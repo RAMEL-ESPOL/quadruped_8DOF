@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/cinematic_control/cinematic_control.egg-info/PKG-INFO
+../../build/cinematic_control/cinematic_control.egg-info/SOURCES.txt
+../../build/cinematic_control/cinematic_control.egg-info/dependency_links.txt
+../../build/cinematic_control/cinematic_control.egg-info/entry_points.txt
+../../build/cinematic_control/cinematic_control.egg-info/requires.txt
+../../build/cinematic_control/cinematic_control.egg-info/top_level.txt
+../../build/cinematic_control/cinematic_control.egg-info/zip-safe
+cinematic_control/__init__.py
+cinematic_control/velocity_hip1_cmd.py
+resource/cinematic_control
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

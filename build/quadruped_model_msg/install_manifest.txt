@@ -1,0 +1,16 @@
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/ament_index/resource_index/package_run_dependencies/quadruped_model_msg
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/ament_index/resource_index/parent_prefix_path/quadruped_model_msg
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/environment/ament_prefix_path.sh
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/environment/ament_prefix_path.dsv
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/environment/path.sh
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/environment/path.dsv
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/local_setup.bash
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/local_setup.sh
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/local_setup.zsh
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/local_setup.dsv
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/package.dsv
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/ament_index/resource_index/packages/quadruped_model_msg
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/cmake/quadruped_model_msgConfig.cmake
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/cmake/quadruped_model_msgConfig-version.cmake
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/package.xml

@@ -1,0 +1,49 @@
+[0.064s] Invoking command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/opt/ros/humble /usr/bin/cmake /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model_msg -DCMAKE_INSTALL_PREFIX=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg
+[2.550s] -- The C compiler identification is GNU 11.4.0
+[3.619s] -- The CXX compiler identification is GNU 11.4.0
+[3.738s] -- Detecting C compiler ABI info
+[4.520s] -- Detecting C compiler ABI info - done
+[4.577s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.592s] -- Detecting C compile features
+[4.609s] -- Detecting C compile features - done
+[4.633s] -- Detecting CXX compiler ABI info
+[5.591s] -- Detecting CXX compiler ABI info - done
+[5.669s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.671s] -- Detecting CXX compile features
+[5.675s] -- Detecting CXX compile features - done
+[5.822s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.217s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.079s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[8.728s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.910s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.024s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.213s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.393s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.852s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[10.642s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[11.563s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[12.552s] -- Configuring done
+[12.580s] -- Generating done
+[12.598s] -- Build files have been written to: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg
+[12.650s] Invoked command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/opt/ros/humble /usr/bin/cmake /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model_msg -DCMAKE_INSTALL_PREFIX=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg
+[12.663s] Invoking command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/opt/ros/humble /usr/bin/cmake --build /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg -- -j2 -l2
+[12.934s] Invoked command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/opt/ros/humble /usr/bin/cmake --build /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg -- -j2 -l2
+[13.190s] Invoking command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/opt/ros/humble /usr/bin/cmake --install /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg
+[13.234s] -- Install configuration: ""
+[13.234s] -- Installing: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/ament_index/resource_index/package_run_dependencies/quadruped_model_msg
+[13.235s] -- Installing: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/ament_index/resource_index/parent_prefix_path/quadruped_model_msg
+[13.236s] -- Installing: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/environment/ament_prefix_path.sh
+[13.236s] -- Installing: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/environment/ament_prefix_path.dsv
+[13.238s] -- Installing: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/environment/path.sh
+[13.238s] -- Installing: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/environment/path.dsv
+[13.239s] -- Installing: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/local_setup.bash
+[13.239s] -- Installing: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/local_setup.sh
+[13.240s] -- Installing: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/local_setup.zsh
+[13.240s] -- Installing: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/local_setup.dsv
+[13.241s] -- Installing: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/package.dsv
+[13.242s] -- Installing: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/ament_index/resource_index/packages/quadruped_model_msg
+[13.242s] -- Installing: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.243s] -- Installing: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/cmake/quadruped_model_msgConfig.cmake
+[13.243s] -- Installing: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/cmake/quadruped_model_msgConfig-version.cmake
+[13.244s] -- Installing: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/package.xml
+[13.260s] Invoked command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/opt/ros/humble /usr/bin/cmake --install /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg

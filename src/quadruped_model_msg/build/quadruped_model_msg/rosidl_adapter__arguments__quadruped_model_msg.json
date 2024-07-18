@@ -1,0 +1,8 @@
+{
+  "package_name": "quadruped_model_msg",
+  "non_idl_tuples": [
+    "/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model/quadruped_model_msg:msg/MotorCmd.msg",
+    "/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model/quadruped_model_msg:msg/MotorState.msg",
+    "/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model/quadruped_model_msg:msg/Cartesian.msg"
+  ]
+}

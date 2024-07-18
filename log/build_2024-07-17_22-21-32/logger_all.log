@@ -1,0 +1,307 @@
+[0.473s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.474s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7273da8b6350>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7273da8b58d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7273da8b58d0>>, mixin_verb=('build',))
+[1.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.281s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/action) by extensions ['ignore', 'ignore_ament_install']
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/action) by extension 'ignore'
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/action) by extension 'ignore_ament_install'
+[1.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/action) by extensions ['colcon_pkg']
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/action) by extension 'colcon_pkg'
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/action) by extensions ['colcon_meta']
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/action) by extension 'colcon_meta'
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/action) by extensions ['ros']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/action) by extension 'ros'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/action) by extensions ['cmake', 'python']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/action) by extension 'cmake'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/action) by extension 'python'
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/action) by extensions ['python_setup_py']
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/action) by extension 'python_setup_py'
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/cinematic_control) by extensions ['ignore', 'ignore_ament_install']
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/cinematic_control) by extension 'ignore'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/cinematic_control) by extension 'ignore_ament_install'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/cinematic_control) by extensions ['colcon_pkg']
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/cinematic_control) by extension 'colcon_pkg'
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/cinematic_control) by extensions ['colcon_meta']
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/cinematic_control) by extension 'colcon_meta'
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/cinematic_control) by extensions ['ros']
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/cinematic_control) by extension 'ros'
+[1.374s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cinematic_control' with type 'ros.ament_python' and name 'cinematic_control'
+[1.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['ignore', 'ignore_ament_install']
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'ignore'
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'ignore_ament_install'
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['colcon_pkg']
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'colcon_pkg'
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['colcon_meta']
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'colcon_meta'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['ros']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'ros'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['cmake', 'python']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'cmake'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'python'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['python_setup_py']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'python_setup_py'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_model) by extensions ['ignore', 'ignore_ament_install']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_model) by extension 'ignore'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_model) by extension 'ignore_ament_install'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_model) by extensions ['colcon_pkg']
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_model) by extension 'colcon_pkg'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_model) by extensions ['colcon_meta']
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_model) by extension 'colcon_meta'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_model) by extensions ['ros']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_model) by extension 'ros'
+[1.386s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quadruped_model' with type 'ros.ament_python' and name 'quadruped_model'
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_model_msg) by extensions ['ignore', 'ignore_ament_install']
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_model_msg) by extension 'ignore'
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_model_msg) by extension 'ignore_ament_install'
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_model_msg) by extensions ['colcon_pkg']
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_model_msg) by extension 'colcon_pkg'
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_model_msg) by extensions ['colcon_meta']
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_model_msg) by extension 'colcon_meta'
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_model_msg) by extensions ['ros']
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_model_msg) by extension 'ros'
+[1.391s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quadruped_model_msg' with type 'ros.ament_cmake' and name 'quadruped_model_msg'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extensions ['ignore', 'ignore_ament_install']
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'ignore'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'ignore_ament_install'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extensions ['colcon_pkg']
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'colcon_pkg'
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extensions ['colcon_meta']
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'colcon_meta'
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extensions ['ros']
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'ros'
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extensions ['cmake', 'python']
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'cmake'
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'python'
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extensions ['python_setup_py']
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'python_setup_py'
+[1.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.477s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.481s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/robotiq_hardware_tests' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.482s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/robotiq_driver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.484s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/serial' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.484s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/rviz_visual_tools' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.486s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/rviz_marker_tools' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.487s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/kortex_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.488s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/kortex_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.488s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/robotiq_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.489s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/robotiq_controllers' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.490s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_node' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.492s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/kortex_driver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.494s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/kortex_api' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.495s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/dual_arm_panda_moveit_config' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.496s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/robotiq_hardware_tests' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.497s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/robotiq_driver' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.498s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/serial' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.498s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/rviz_visual_tools' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.499s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/rviz_marker_tools' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.500s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/kortex_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.501s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/kortex_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.507s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/robotiq_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.508s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/robotiq_controllers' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.508s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_node' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.508s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/kortex_driver' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.508s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/kortex_api' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.508s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/dual_arm_panda_moveit_config' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.511s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install
+[1.517s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 294 installed packages in /opt/ros/humble
+[1.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.787s] Level 5:colcon.colcon_core.verb:set package 'quadruped_model' build argument 'cmake_args' from command line to 'None'
+[1.788s] Level 5:colcon.colcon_core.verb:set package 'quadruped_model' build argument 'cmake_target' from command line to 'None'
+[1.788s] Level 5:colcon.colcon_core.verb:set package 'quadruped_model' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.788s] Level 5:colcon.colcon_core.verb:set package 'quadruped_model' build argument 'cmake_clean_cache' from command line to 'False'
+[1.788s] Level 5:colcon.colcon_core.verb:set package 'quadruped_model' build argument 'cmake_clean_first' from command line to 'False'
+[1.788s] Level 5:colcon.colcon_core.verb:set package 'quadruped_model' build argument 'cmake_force_configure' from command line to 'False'
+[1.788s] Level 5:colcon.colcon_core.verb:set package 'quadruped_model' build argument 'ament_cmake_args' from command line to 'None'
+[1.788s] Level 5:colcon.colcon_core.verb:set package 'quadruped_model' build argument 'catkin_cmake_args' from command line to 'None'
+[1.788s] Level 5:colcon.colcon_core.verb:set package 'quadruped_model' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.789s] DEBUG:colcon.colcon_core.verb:Building package 'quadruped_model' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model', 'merge_install': False, 'path': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model', 'symlink_install': False, 'test_result_base': None}
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'quadruped_model_msg' build argument 'cmake_args' from command line to 'None'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'quadruped_model_msg' build argument 'cmake_target' from command line to 'None'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'quadruped_model_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'quadruped_model_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'quadruped_model_msg' build argument 'cmake_clean_first' from command line to 'False'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'quadruped_model_msg' build argument 'cmake_force_configure' from command line to 'False'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'quadruped_model_msg' build argument 'ament_cmake_args' from command line to 'None'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'quadruped_model_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'quadruped_model_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.790s] DEBUG:colcon.colcon_core.verb:Building package 'quadruped_model_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg', 'merge_install': False, 'path': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model_msg', 'symlink_install': False, 'test_result_base': None}
+[1.792s] Level 5:colcon.colcon_core.verb:set package 'cinematic_control' build argument 'cmake_args' from command line to 'None'
+[1.792s] Level 5:colcon.colcon_core.verb:set package 'cinematic_control' build argument 'cmake_target' from command line to 'None'
+[1.792s] Level 5:colcon.colcon_core.verb:set package 'cinematic_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.792s] Level 5:colcon.colcon_core.verb:set package 'cinematic_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.792s] Level 5:colcon.colcon_core.verb:set package 'cinematic_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.792s] Level 5:colcon.colcon_core.verb:set package 'cinematic_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.792s] Level 5:colcon.colcon_core.verb:set package 'cinematic_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.793s] Level 5:colcon.colcon_core.verb:set package 'cinematic_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.793s] Level 5:colcon.colcon_core.verb:set package 'cinematic_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.793s] DEBUG:colcon.colcon_core.verb:Building package 'cinematic_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control', 'merge_install': False, 'path': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/cinematic_control', 'symlink_install': False, 'test_result_base': None}
+[1.793s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.802s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.804s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model' with build type 'ament_python'
+[1.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_model', 'ament_prefix_path')
+[1.816s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/hook/ament_prefix_path.ps1'
+[1.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/hook/ament_prefix_path.dsv'
+[1.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/hook/ament_prefix_path.sh'
+[1.848s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.849s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.967s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model_msg' with build type 'ament_cmake'
+[1.968s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model_msg'
+[1.970s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.972s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.541s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model'
+[3.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/opt/ros/humble /usr/bin/cmake --build /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg -- -j2 -l2
+[4.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/opt/ros/humble /usr/bin/cmake --build /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg -- -j2 -l2
+[4.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/opt/ros/humble /usr/bin/cmake --install /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg
+[4.554s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_model_msg)
+[4.569s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg' for CMake module files
+[4.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/opt/ros/humble /usr/bin/cmake --install /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg
+[4.576s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg' for CMake config files
+[4.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_model_msg', 'cmake_prefix_path')
+[4.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/hook/cmake_prefix_path.ps1'
+[4.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/hook/cmake_prefix_path.dsv'
+[4.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/hook/cmake_prefix_path.sh'
+[4.588s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/bin'
+[4.590s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/lib/pkgconfig/quadruped_model_msg.pc'
+[4.591s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/lib/python3.10/site-packages'
+[4.598s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/bin'
+[4.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/package.ps1'
+[4.622s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/package.dsv'
+[4.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/package.sh'
+[4.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/package.bash'
+[4.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/package.zsh'
+[4.676s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/colcon-core/packages/quadruped_model_msg)
+[5.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_model_msg)
+[5.208s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg' for CMake module files
+[5.210s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg' for CMake config files
+[5.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_model_msg', 'cmake_prefix_path')
+[5.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/hook/cmake_prefix_path.ps1'
+[5.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/hook/cmake_prefix_path.dsv'
+[5.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/hook/cmake_prefix_path.sh'
+[5.236s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/bin'
+[5.237s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/lib/pkgconfig/quadruped_model_msg.pc'
+[5.238s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/lib/python3.10/site-packages'
+[5.239s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/bin'
+[5.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/package.ps1'
+[5.252s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/package.dsv'
+[5.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/package.sh'
+[5.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/package.bash'
+[5.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/quadruped_model_msg/package.zsh'
+[5.282s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/share/colcon-core/packages/quadruped_model_msg)
+[6.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model': PYTHONPATH=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/quadruped_model build --build-base /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/build install --record /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/install.log --single-version-externally-managed install_data
+[7.512s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model' for CMake module files
+[7.515s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model' for CMake config files
+[7.521s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib'
+[7.521s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/bin'
+[7.522s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/pkgconfig/quadruped_model.pc'
+[7.523s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages'
+[7.523s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_model', 'pythonpath')
+[7.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/hook/pythonpath.ps1'
+[7.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model' returned '0': PYTHONPATH=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/quadruped_model build --build-base /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/build install --record /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/install.log --single-version-externally-managed install_data
+[7.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/hook/pythonpath.dsv'
+[7.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/hook/pythonpath.sh'
+[7.543s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/bin'
+[7.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_model)
+[7.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/package.ps1'
+[7.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/package.dsv'
+[7.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/package.sh'
+[7.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/package.bash'
+[7.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/quadruped_model/package.zsh'
+[7.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/share/colcon-core/packages/quadruped_model)
+[7.584s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/cinematic_control' with build type 'ament_python'
+[7.586s] Level 1:colcon.colcon_core.shell:create_environment_hook('cinematic_control', 'ament_prefix_path')
+[7.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/share/cinematic_control/hook/ament_prefix_path.ps1'
+[7.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/share/cinematic_control/hook/ament_prefix_path.dsv'
+[7.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/share/cinematic_control/hook/ament_prefix_path.sh'
+[7.618s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.619s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.949s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/cinematic_control'
+[8.950s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.950s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/cinematic_control': AMENT_PREFIX_PATH=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/robotiq_hardware_tests:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/robotiq_driver:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/serial:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/rviz_visual_tools:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/rviz_marker_tools:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/kortex_bringup:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/kortex_description:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/robotiq_description:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/robotiq_controllers:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_node:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/kortex_driver:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/kortex_api:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/dual_arm_panda_moveit_config:/opt/ros/humble PYTHONPATH=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cinematic_control build --build-base /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build install --record /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/install.log --single-version-externally-managed install_data
+[11.985s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control' for CMake module files
+[11.987s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control' for CMake config files
+[11.992s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib'
+[11.993s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/bin'
+[11.994s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/pkgconfig/cinematic_control.pc'
+[11.995s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages'
+[11.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('cinematic_control', 'pythonpath')
+[11.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/share/cinematic_control/hook/pythonpath.ps1'
+[11.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/cinematic_control' returned '0': AMENT_PREFIX_PATH=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/robotiq_hardware_tests:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/robotiq_driver:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/serial:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/rviz_visual_tools:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/rviz_marker_tools:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/kortex_bringup:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/kortex_description:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/robotiq_description:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/robotiq_controllers:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_node:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/kortex_driver:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/kortex_api:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/dual_arm_panda_moveit_config:/opt/ros/humble PYTHONPATH=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cinematic_control build --build-base /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build install --record /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/install.log --single-version-externally-managed install_data
+[12.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/share/cinematic_control/hook/pythonpath.dsv'
+[12.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/share/cinematic_control/hook/pythonpath.sh'
+[12.007s] Level 1:colcon.colcon_core.environment:checking '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/bin'
+[12.007s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cinematic_control)
+[12.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/share/cinematic_control/package.ps1'
+[12.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/share/cinematic_control/package.dsv'
+[12.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/share/cinematic_control/package.sh'
+[12.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/share/cinematic_control/package.bash'
+[12.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/share/cinematic_control/package.zsh'
+[12.020s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/share/colcon-core/packages/cinematic_control)
+[12.023s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.024s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.024s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.024s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.047s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.048s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.048s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.111s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.112s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/local_setup.ps1'
+[12.121s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/_local_setup_util_ps1.py'
+[12.129s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/setup.ps1'
+[12.136s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/local_setup.sh'
+[12.139s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/_local_setup_util_sh.py'
+[12.142s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/setup.sh'
+[12.150s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/local_setup.bash'
+[12.155s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/setup.bash'
+[12.164s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/local_setup.zsh'
+[12.168s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/setup.zsh'
