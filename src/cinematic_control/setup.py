@@ -1,3 +1,5 @@
+import os
+from glob import glob
 from setuptools import find_packages, setup
 
 package_name = 'cinematic_control'
@@ -21,6 +23,9 @@ setup(
     entry_points={
         'console_scripts': [
             'velocity_hip1_cmd = cinematic_control.velocity_hip1_cmd:main',
+            'velocity_hip2_cmd = cinematic_control.velocity_hip2_cmd:main',
+            'velocity_hip3_cmd = cinematic_control.velocity_hip3_cmd:main',
+            'velocity_hip4_cmd = cinematic_control.velocity_hip4_cmd:main',
         ],
     },
 )

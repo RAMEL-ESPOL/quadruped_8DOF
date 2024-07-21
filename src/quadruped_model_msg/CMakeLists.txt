@@ -13,6 +13,8 @@ set(msg_files
   "msg/MotorCmd.msg"
   "msg/MotorState.msg"
   "msg/Cartesian.msg"
+  "msg/LowSate.msg"
+  "msg/QuadruoedState.msg"
 )
 
 

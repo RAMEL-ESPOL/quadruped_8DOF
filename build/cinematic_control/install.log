@@ -1,7 +1,13 @@
 /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/__init__.py
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/velocity_hip4_cmd.py
 /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/velocity_hip1_cmd.py
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/velocity_hip2_cmd.py
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/velocity_hip3_cmd.py
 /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/__pycache__/__init__.cpython-310.pyc
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/__pycache__/velocity_hip4_cmd.cpython-310.pyc
 /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/__pycache__/velocity_hip1_cmd.cpython-310.pyc
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/__pycache__/velocity_hip2_cmd.cpython-310.pyc
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/__pycache__/velocity_hip3_cmd.cpython-310.pyc
 /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/share/ament_index/resource_index/packages/cinematic_control
 /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/share/cinematic_control/package.xml
 /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control-0.0.0-py3.10.egg-info/dependency_links.txt
@@ -12,3 +18,6 @@
 /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control-0.0.0-py3.10.egg-info/requires.txt
 /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control-0.0.0-py3.10.egg-info/PKG-INFO
 /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/cinematic_control/velocity_hip1_cmd
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/cinematic_control/velocity_hip2_cmd
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/cinematic_control/velocity_hip3_cmd
+/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/cinematic_control/velocity_hip4_cmd
