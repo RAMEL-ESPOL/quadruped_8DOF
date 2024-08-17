@@ -1,0 +1,37 @@
+running egg_info
+writing ../../build/cinematic_control/cinematic_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/cinematic_control/cinematic_control.egg-info/dependency_links.txt
+writing entry points to ../../build/cinematic_control/cinematic_control.egg-info/entry_points.txt
+writing requirements to ../../build/cinematic_control/cinematic_control.egg-info/requires.txt
+writing top-level names to ../../build/cinematic_control/cinematic_control.egg-info/top_level.txt
+reading manifest file '../../build/cinematic_control/cinematic_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/cinematic_control/cinematic_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying cinematic_control/velocity_leg4_cmd.py -> /home/maranmen/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control
+copying cinematic_control/quadruped_driver_node.py -> /home/maranmen/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control
+copying cinematic_control/velocity_leg1_cmd.py -> /home/maranmen/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control
+copying cinematic_control/velocity_leg2_cmd.py -> /home/maranmen/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control
+copying cinematic_control/velocity_leg3_cmd.py -> /home/maranmen/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control
+running install
+running install_lib
+copying /home/maranmen/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control/velocity_leg4_cmd.py -> /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control
+copying /home/maranmen/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control/quadruped_driver_node.py -> /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control
+copying /home/maranmen/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control/velocity_leg1_cmd.py -> /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control
+copying /home/maranmen/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control/velocity_leg2_cmd.py -> /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control
+copying /home/maranmen/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control/velocity_leg3_cmd.py -> /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control
+byte-compiling /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/velocity_leg4_cmd.py to velocity_leg4_cmd.cpython-310.pyc
+byte-compiling /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/quadruped_driver_node.py to quadruped_driver_node.cpython-310.pyc
+byte-compiling /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/velocity_leg1_cmd.py to velocity_leg1_cmd.cpython-310.pyc
+byte-compiling /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/velocity_leg2_cmd.py to velocity_leg2_cmd.cpython-310.pyc
+byte-compiling /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/velocity_leg3_cmd.py to velocity_leg3_cmd.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/cinematic_control/cinematic_control.egg-info to /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing velocity_hip1_cmd script to /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/cinematic_control
+Installing velocity_hip2_cmd script to /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/cinematic_control
+Installing velocity_hip3_cmd script to /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/cinematic_control
+Installing velocity_hip4_cmd script to /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/cinematic_control
+writing list of installed files to '/home/maranmen/quadruped_8DOF/build/cinematic_control/install.log'

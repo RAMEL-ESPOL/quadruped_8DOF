@@ -1,0 +1,39 @@
+[0.883s] Invoking command in '/home/maranmen/quadruped_8DOF/src/cinematic_control': AMENT_PREFIX_PATH=/home/maranmen/quadruped_8DOF/install/quadruped_model:${AMENT_PREFIX_PATH} PYTHONPATH=/home/maranmen/quadruped_8DOF/build/cinematic_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:/home/maranmen/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cinematic_control build --build-base /home/maranmen/quadruped_8DOF/build/cinematic_control/build install --record /home/maranmen/quadruped_8DOF/build/cinematic_control/install.log --single-version-externally-managed install_data
+[1.133s] running egg_info
+[1.133s] writing ../../build/cinematic_control/cinematic_control.egg-info/PKG-INFO
+[1.134s] writing dependency_links to ../../build/cinematic_control/cinematic_control.egg-info/dependency_links.txt
+[1.135s] writing entry points to ../../build/cinematic_control/cinematic_control.egg-info/entry_points.txt
+[1.135s] writing requirements to ../../build/cinematic_control/cinematic_control.egg-info/requires.txt
+[1.135s] writing top-level names to ../../build/cinematic_control/cinematic_control.egg-info/top_level.txt
+[1.137s] reading manifest file '../../build/cinematic_control/cinematic_control.egg-info/SOURCES.txt'
+[1.442s] writing manifest file '../../build/cinematic_control/cinematic_control.egg-info/SOURCES.txt'
+[1.442s] running build
+[1.442s] running build_py
+[4.543s] copying cinematic_control/velocity_leg4_cmd.py -> /home/maranmen/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control
+[4.545s] copying cinematic_control/quadruped_driver_node.py -> /home/maranmen/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control
+[4.545s] copying cinematic_control/velocity_leg1_cmd.py -> /home/maranmen/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control
+[4.546s] copying cinematic_control/velocity_leg2_cmd.py -> /home/maranmen/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control
+[4.547s] copying cinematic_control/velocity_leg3_cmd.py -> /home/maranmen/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control
+[4.548s] running install
+[4.549s] running install_lib
+[4.550s] copying /home/maranmen/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control/velocity_leg4_cmd.py -> /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control
+[4.550s] copying /home/maranmen/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control/quadruped_driver_node.py -> /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control
+[4.550s] copying /home/maranmen/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control/velocity_leg1_cmd.py -> /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control
+[4.550s] copying /home/maranmen/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control/velocity_leg2_cmd.py -> /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control
+[4.551s] copying /home/maranmen/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control/velocity_leg3_cmd.py -> /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control
+[4.551s] byte-compiling /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/velocity_leg4_cmd.py to velocity_leg4_cmd.cpython-310.pyc
+[4.552s] byte-compiling /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/quadruped_driver_node.py to quadruped_driver_node.cpython-310.pyc
+[4.552s] byte-compiling /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/velocity_leg1_cmd.py to velocity_leg1_cmd.cpython-310.pyc
+[4.553s] byte-compiling /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/velocity_leg2_cmd.py to velocity_leg2_cmd.cpython-310.pyc
+[4.553s] byte-compiling /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/velocity_leg3_cmd.py to velocity_leg3_cmd.cpython-310.pyc
+[4.553s] running install_data
+[5.596s] running install_egg_info
+[5.598s] removing '/home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control-0.0.0-py3.10.egg-info' (and everything under it)
+[5.599s] Copying ../../build/cinematic_control/cinematic_control.egg-info to /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control-0.0.0-py3.10.egg-info
+[5.601s] running install_scripts
+[5.623s] Installing velocity_hip1_cmd script to /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/cinematic_control
+[5.623s] Installing velocity_hip2_cmd script to /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/cinematic_control
+[5.624s] Installing velocity_hip3_cmd script to /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/cinematic_control
+[5.624s] Installing velocity_hip4_cmd script to /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/cinematic_control
+[5.625s] writing list of installed files to '/home/maranmen/quadruped_8DOF/build/cinematic_control/install.log'
+[5.649s] Invoked command in '/home/maranmen/quadruped_8DOF/src/cinematic_control' returned '0': AMENT_PREFIX_PATH=/home/maranmen/quadruped_8DOF/install/quadruped_model:${AMENT_PREFIX_PATH} PYTHONPATH=/home/maranmen/quadruped_8DOF/build/cinematic_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:/home/maranmen/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cinematic_control build --build-base /home/maranmen/quadruped_8DOF/build/cinematic_control/build install --record /home/maranmen/quadruped_8DOF/build/cinematic_control/install.log --single-version-externally-managed install_data

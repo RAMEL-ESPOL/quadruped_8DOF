@@ -1,0 +1,21 @@
+[4.467s] Invoking command in '/home/maranmen/quadruped_8DOF/src/cinematic_control': AMENT_PREFIX_PATH=/home/maranmen/quadruped_8DOF/install/quadruped_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maranmen/quadruped_8DOF/install/quadruped_model:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/maranmen/quadruped_8DOF/build/cinematic_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:/home/maranmen/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cinematic_control build --build-base /home/maranmen/quadruped_8DOF/build/cinematic_control/build install --record /home/maranmen/quadruped_8DOF/build/cinematic_control/install.log --single-version-externally-managed install_data
+[4.918s] running egg_info
+[4.919s] writing ../../build/cinematic_control/cinematic_control.egg-info/PKG-INFO
+[5.063s] writing dependency_links to ../../build/cinematic_control/cinematic_control.egg-info/dependency_links.txt
+[5.063s] writing entry points to ../../build/cinematic_control/cinematic_control.egg-info/entry_points.txt
+[5.064s] writing requirements to ../../build/cinematic_control/cinematic_control.egg-info/requires.txt
+[5.064s] writing top-level names to ../../build/cinematic_control/cinematic_control.egg-info/top_level.txt
+[5.068s] reading manifest file '../../build/cinematic_control/cinematic_control.egg-info/SOURCES.txt'
+[5.122s] writing manifest file '../../build/cinematic_control/cinematic_control.egg-info/SOURCES.txt'
+[5.123s] running build
+[5.123s] running build_py
+[5.176s] running install
+[5.176s] running install_lib
+[5.230s] running install_data
+[5.232s] running install_egg_info
+[5.234s] removing '/home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control-0.0.0-py3.10.egg-info' (and everything under it)
+[5.235s] Copying ../../build/cinematic_control/cinematic_control.egg-info to /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control-0.0.0-py3.10.egg-info
+[5.280s] running install_scripts
+[5.355s] Installing velocity_hip1_cmd script to /home/maranmen/quadruped_8DOF/install/cinematic_control/lib/cinematic_control
+[5.580s] writing list of installed files to '/home/maranmen/quadruped_8DOF/build/cinematic_control/install.log'
+[5.612s] Invoked command in '/home/maranmen/quadruped_8DOF/src/cinematic_control' returned '0': AMENT_PREFIX_PATH=/home/maranmen/quadruped_8DOF/install/quadruped_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maranmen/quadruped_8DOF/install/quadruped_model:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/maranmen/quadruped_8DOF/build/cinematic_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maranmen/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:/home/maranmen/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cinematic_control build --build-base /home/maranmen/quadruped_8DOF/build/cinematic_control/build install --record /home/maranmen/quadruped_8DOF/build/cinematic_control/install.log --single-version-externally-managed install_data

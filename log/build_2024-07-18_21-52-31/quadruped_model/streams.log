@@ -1,0 +1,43 @@
+[0.032s] Invoking command in '/home/maranmen/quadruped_8DOF/build/quadruped_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maranmen/quadruped_8DOF/install/cinematic_control:/home/maranmen/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/maranmen/quadruped_8DOF/build/quadruped_model -- -j4 -l4
+[0.163s] Invoked command in '/home/maranmen/quadruped_8DOF/build/quadruped_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maranmen/quadruped_8DOF/install/cinematic_control:/home/maranmen/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/maranmen/quadruped_8DOF/build/quadruped_model -- -j4 -l4
+[0.280s] Invoking command in '/home/maranmen/quadruped_8DOF/build/quadruped_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maranmen/quadruped_8DOF/install/cinematic_control:/home/maranmen/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/maranmen/quadruped_8DOF/build/quadruped_model
+[0.301s] -- Install configuration: ""
+[0.301s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/ament_index/resource_index/package_run_dependencies/quadruped_model
+[0.301s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/ament_index/resource_index/parent_prefix_path/quadruped_model
+[0.301s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/environment/ament_prefix_path.sh
+[0.301s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/environment/ament_prefix_path.dsv
+[0.302s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/environment/path.sh
+[0.302s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/environment/path.dsv
+[0.302s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/local_setup.bash
+[0.302s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/local_setup.sh
+[0.302s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/local_setup.zsh
+[0.302s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/local_setup.dsv
+[0.302s] -- Installing: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/package.dsv
+[0.303s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/ament_index/resource_index/packages/quadruped_model
+[0.303s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/cmake/quadruped_modelConfig.cmake
+[0.303s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/cmake/quadruped_modelConfig-version.cmake
+[0.303s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/package.xml
+[0.303s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/launch
+[0.303s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/launch/moveit_rviz.launch.py
+[0.303s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/launch/gazebo.launch.py
+[0.303s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/launch/warehouse_db.launch.py
+[0.303s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/launch/display.launch.py
+[0.303s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/launch/move_group.launch.py
+[0.304s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/launch/setup_assistant.launch.py
+[0.304s] -- Installing: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/launch/demo.launch.py
+[0.304s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/launch/static_virtual_joint_tfs.launch.py
+[0.304s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/launch/rsp.launch.py
+[0.304s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/launch/spawn_controllers.launch.py
+[0.304s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/config
+[0.305s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/config/moveit_controllers.yaml
+[0.305s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/config/joint_limits.yaml
+[0.305s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/config/quadruped_model.srdf
+[0.305s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/config/initial_positions.yaml
+[0.305s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/config/quadruped_model.urdf.xacro
+[0.305s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/config/ros2_controllers.yaml
+[0.306s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/config/quadruped_model.ros2_control.xacro
+[0.306s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/config/moveit.rviz
+[0.306s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/config/kinematics.yaml
+[0.307s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/config/pilz_cartesian_limits.yaml
+[0.307s] -- Up-to-date: /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/.setup_assistant
+[0.308s] Invoked command in '/home/maranmen/quadruped_8DOF/build/quadruped_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maranmen/quadruped_8DOF/install/cinematic_control:/home/maranmen/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/maranmen/quadruped_8DOF/build/quadruped_model

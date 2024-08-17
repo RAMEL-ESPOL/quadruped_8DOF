@@ -1,0 +1,30 @@
+[43.780s] Invoking command in '/home/maranmen/quadruped_8DOF/src/quadruped_model': PYTHONPATH=/home/maranmen/quadruped_8DOF/build/quadruped_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maranmen/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/quadruped_model build --build-base /home/maranmen/quadruped_8DOF/build/quadruped_model/build install --record /home/maranmen/quadruped_8DOF/build/quadruped_model/install.log --single-version-externally-managed install_data
+[44.084s] running egg_info
+[44.085s] writing ../../build/quadruped_model/quadruped_model.egg-info/PKG-INFO
+[44.086s] writing dependency_links to ../../build/quadruped_model/quadruped_model.egg-info/dependency_links.txt
+[44.087s] writing entry points to ../../build/quadruped_model/quadruped_model.egg-info/entry_points.txt
+[44.088s] writing requirements to ../../build/quadruped_model/quadruped_model.egg-info/requires.txt
+[44.088s] writing top-level names to ../../build/quadruped_model/quadruped_model.egg-info/top_level.txt
+[44.093s] reading manifest file '../../build/quadruped_model/quadruped_model.egg-info/SOURCES.txt'
+[44.094s] writing manifest file '../../build/quadruped_model/quadruped_model.egg-info/SOURCES.txt'
+[44.095s] running build
+[44.095s] running build_py
+[44.095s] creating /home/maranmen/quadruped_8DOF/build/quadruped_model/build
+[44.095s] creating /home/maranmen/quadruped_8DOF/build/quadruped_model/build/lib
+[44.095s] creating /home/maranmen/quadruped_8DOF/build/quadruped_model/build/lib/quadruped_model
+[44.096s] copying quadruped_model/__init__.py -> /home/maranmen/quadruped_8DOF/build/quadruped_model/build/lib/quadruped_model
+[44.096s] running install
+[44.096s] running install_lib
+[44.097s] creating /home/maranmen/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model
+[44.097s] copying /home/maranmen/quadruped_8DOF/build/quadruped_model/build/lib/quadruped_model/__init__.py -> /home/maranmen/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model
+[44.099s] byte-compiling /home/maranmen/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model/__init__.py to __init__.cpython-310.pyc
+[44.099s] running install_data
+[44.099s] copying package.xml -> /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model
+[44.100s] copying launch/gazebo.launch.py -> /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/launch
+[44.100s] copying launch/rviz,launch.py -> /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/launch
+[44.101s] running install_egg_info
+[44.105s] removing '/home/maranmen/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model-0.0.0-py3.10.egg-info' (and everything under it)
+[44.105s] Copying ../../build/quadruped_model/quadruped_model.egg-info to /home/maranmen/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model-0.0.0-py3.10.egg-info
+[44.457s] running install_scripts
+[44.480s] writing list of installed files to '/home/maranmen/quadruped_8DOF/build/quadruped_model/install.log'
+[44.508s] Invoked command in '/home/maranmen/quadruped_8DOF/src/quadruped_model' returned '0': PYTHONPATH=/home/maranmen/quadruped_8DOF/build/quadruped_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maranmen/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/quadruped_model build --build-base /home/maranmen/quadruped_8DOF/build/quadruped_model/build install --record /home/maranmen/quadruped_8DOF/build/quadruped_model/install.log --single-version-externally-managed install_data

@@ -29,6 +29,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        ],
-    },
+            'continuous_lifter = quadruped_model.continuous_lifter:main',
+            'move_robot = quadruped_model.move_robot:main',
+        ], 
+      },
 )

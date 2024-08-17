@@ -1,1 +1,1 @@
-quadruped_model:rclpy:std_msgs
+quadruped_model:quadruped_model_msg:rclpy:std_msgs

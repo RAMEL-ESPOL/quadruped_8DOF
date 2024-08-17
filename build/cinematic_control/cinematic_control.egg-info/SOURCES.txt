@@ -9,10 +9,15 @@ setup.py
 ../../build/cinematic_control/cinematic_control.egg-info/top_level.txt
 ../../build/cinematic_control/cinematic_control.egg-info/zip-safe
 cinematic_control/__init__.py
+cinematic_control/quadruped_driver_node.py
 cinematic_control/velocity_hip1_cmd.py
 cinematic_control/velocity_hip2_cmd.py
 cinematic_control/velocity_hip3_cmd.py
 cinematic_control/velocity_hip4_cmd.py
+cinematic_control/velocity_leg1_cmd.py
+cinematic_control/velocity_leg2_cmd.py
+cinematic_control/velocity_leg3_cmd.py
+cinematic_control/velocity_leg4_cmd.py
 resource/cinematic_control
 test/test_copyright.py
 test/test_flake8.py
