@@ -1,0 +1,23 @@
+[0.764s] Invoking command in '/home/maranmen/quadruped_8DOF/src/quadruped_model': PYTHONPATH=/home/maranmen/quadruped_8DOF/build/quadruped_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maranmen/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/quadruped_model build --build-base /home/maranmen/quadruped_8DOF/build/quadruped_model/build install --record /home/maranmen/quadruped_8DOF/build/quadruped_model/install.log --single-version-externally-managed install_data
+[1.067s] running egg_info
+[1.067s] writing ../../build/quadruped_model/quadruped_model.egg-info/PKG-INFO
+[1.067s] writing dependency_links to ../../build/quadruped_model/quadruped_model.egg-info/dependency_links.txt
+[1.067s] writing entry points to ../../build/quadruped_model/quadruped_model.egg-info/entry_points.txt
+[1.067s] writing requirements to ../../build/quadruped_model/quadruped_model.egg-info/requires.txt
+[1.068s] writing top-level names to ../../build/quadruped_model/quadruped_model.egg-info/top_level.txt
+[1.070s] reading manifest file '../../build/quadruped_model/quadruped_model.egg-info/SOURCES.txt'
+[1.071s] writing manifest file '../../build/quadruped_model/quadruped_model.egg-info/SOURCES.txt'
+[1.071s] running build
+[1.071s] running build_py
+[1.072s] running install
+[1.072s] running install_lib
+[1.074s] running install_data
+[1.074s] copying urdf/quadruped_SimpleModel.urdf -> /home/maranmen/quadruped_8DOF/install/quadruped_model/share/quadruped_model/urdf
+[1.074s] running install_egg_info
+[1.076s] removing '/home/maranmen/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model-0.0.0-py3.10.egg-info' (and everything under it)
+[1.076s] Copying ../../build/quadruped_model/quadruped_model.egg-info to /home/maranmen/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model-0.0.0-py3.10.egg-info
+[1.078s] running install_scripts
+[1.101s] Installing continuous_lifter script to /home/maranmen/quadruped_8DOF/install/quadruped_model/lib/quadruped_model
+[1.102s] Installing move_robot script to /home/maranmen/quadruped_8DOF/install/quadruped_model/lib/quadruped_model
+[1.102s] writing list of installed files to '/home/maranmen/quadruped_8DOF/build/quadruped_model/install.log'
+[1.125s] Invoked command in '/home/maranmen/quadruped_8DOF/src/quadruped_model' returned '0': PYTHONPATH=/home/maranmen/quadruped_8DOF/build/quadruped_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maranmen/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/quadruped_model build --build-base /home/maranmen/quadruped_8DOF/build/quadruped_model/build install --record /home/maranmen/quadruped_8DOF/build/quadruped_model/install.log --single-version-externally-managed install_data
