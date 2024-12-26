@@ -1,4 +1,5 @@
 [console_scripts]
 continuous_lifter = quadruped_model.continuous_lifter:main
 move_robot = quadruped_model.move_robot:main
+vrep_communication = quadruped_model.vrep_communication:main
 

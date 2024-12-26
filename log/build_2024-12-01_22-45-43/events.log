@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.000550] (quadruped_model) JobQueued: {'identifier': 'quadruped_model', 'dependencies': OrderedDict()}
+[0.000664] (cinematic_control) JobQueued: {'identifier': 'cinematic_control', 'dependencies': OrderedDict([('quadruped_model', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model')])}
+[0.000730] (quadruped_model) JobStarted: {'identifier': 'quadruped_model'}
+[0.101228] (-) TimerEvent: {}
+[0.202897] (-) TimerEvent: {}
+[0.303882] (-) TimerEvent: {}
+[0.406664] (-) TimerEvent: {}
+[0.507560] (-) TimerEvent: {}
+[0.608971] (-) TimerEvent: {}
+[0.710675] (-) TimerEvent: {}
+[0.811695] (-) TimerEvent: {}
+[0.912996] (-) TimerEvent: {}
+[1.015083] (-) TimerEvent: {}
+[1.120612] (-) TimerEvent: {}
+[1.221709] (-) TimerEvent: {}
+[1.322642] (-) TimerEvent: {}
+[1.424167] (-) TimerEvent: {}
+[1.525743] (-) TimerEvent: {}
+[1.627476] (-) TimerEvent: {}
+[1.728548] (-) TimerEvent: {}
+[1.829870] (-) TimerEvent: {}
+[1.930825] (-) TimerEvent: {}
+[2.031697] (-) TimerEvent: {}
+[2.133730] (-) TimerEvent: {}
+[2.235229] (-) TimerEvent: {}
+[2.336175] (-) TimerEvent: {}
+[2.401188] (quadruped_model) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/quadruped_model', 'build', '--build-base', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/build', 'install', '--record', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'julio', 'LC_TIME': 'es_EC.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/julio', 'OLDPWD': '/home/julio/Desktop/proyecto_tesis', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_EC.UTF-8', 'SYSTEMD_EXEC_PID': '1705', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'julio', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'julio', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/julio-virtual-machine:@/tmp/.ICE-unix/1680,unix/julio-virtual-machine:/tmp/.ICE-unix/1680', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_EC.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/812b97e4_c4f4_4924_b4cc_1cac9c15e382', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_EC.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G1EUX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_EC.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_EC.UTF-8', 'LC_IDENTIFICATION': 'es_EC.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_EC.UTF-8', 'LC_PAPER': 'es_EC.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.436810] (-) TimerEvent: {}
+[2.538267] (-) TimerEvent: {}
+[2.639784] (-) TimerEvent: {}
+[2.740971] (-) TimerEvent: {}
+[2.842402] (-) TimerEvent: {}
+[2.944632] (-) TimerEvent: {}
+[3.046119] (-) TimerEvent: {}
+[3.147690] (-) TimerEvent: {}
+[3.189232] (quadruped_model) StdoutLine: {'line': b'running egg_info\n'}
+[3.192900] (quadruped_model) StdoutLine: {'line': b'writing ../../build/quadruped_model/quadruped_model.egg-info/PKG-INFO\n'}
+[3.196827] (quadruped_model) StdoutLine: {'line': b'writing dependency_links to ../../build/quadruped_model/quadruped_model.egg-info/dependency_links.txt\n'}
+[3.203672] (quadruped_model) StdoutLine: {'line': b'writing entry points to ../../build/quadruped_model/quadruped_model.egg-info/entry_points.txt\n'}
+[3.204938] (quadruped_model) StdoutLine: {'line': b'writing requirements to ../../build/quadruped_model/quadruped_model.egg-info/requires.txt\n'}
+[3.206056] (quadruped_model) StdoutLine: {'line': b'writing top-level names to ../../build/quadruped_model/quadruped_model.egg-info/top_level.txt\n'}
+[3.213238] (quadruped_model) StdoutLine: {'line': b"reading manifest file '../../build/quadruped_model/quadruped_model.egg-info/SOURCES.txt'\n"}
+[3.219760] (quadruped_model) StdoutLine: {'line': b"writing manifest file '../../build/quadruped_model/quadruped_model.egg-info/SOURCES.txt'\n"}
+[3.221003] (quadruped_model) StdoutLine: {'line': b'running build\n'}
+[3.221492] (quadruped_model) StdoutLine: {'line': b'running build_py\n'}
+[3.224128] (quadruped_model) StdoutLine: {'line': b'running install\n'}
+[3.225574] (quadruped_model) StdoutLine: {'line': b'running install_lib\n'}
+[3.231234] (quadruped_model) StdoutLine: {'line': b'running install_data\n'}
+[3.233387] (quadruped_model) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.236022] (quadruped_model) StdoutLine: {'line': b"removing '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.247840] (-) TimerEvent: {}
+[3.255084] (quadruped_model) StdoutLine: {'line': b'Copying ../../build/quadruped_model/quadruped_model.egg-info to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model-0.0.0-py3.10.egg-info\n'}
+[3.255384] (quadruped_model) StdoutLine: {'line': b'running install_scripts\n'}
+[3.278762] (quadruped_model) StdoutLine: {'line': b'Installing continuous_lifter script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/quadruped_model\n'}
+[3.282242] (quadruped_model) StdoutLine: {'line': b'Installing move_robot script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/quadruped_model\n'}
+[3.285691] (quadruped_model) StdoutLine: {'line': b"writing list of installed files to '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/install.log'\n"}
+[3.352364] (quadruped_model) CommandEnded: {'returncode': 0}
+[3.352934] (-) TimerEvent: {}
+[3.388879] (quadruped_model) JobEnded: {'identifier': 'quadruped_model', 'rc': 0}
+[3.391523] (cinematic_control) JobStarted: {'identifier': 'cinematic_control'}
+[3.453394] (-) TimerEvent: {}
+[3.554209] (-) TimerEvent: {}
+[3.655164] (-) TimerEvent: {}
+[3.756389] (-) TimerEvent: {}
+[3.857507] (-) TimerEvent: {}
+[3.958707] (-) TimerEvent: {}
+[4.060329] (-) TimerEvent: {}
+[4.161013] (-) TimerEvent: {}
+[4.262125] (-) TimerEvent: {}
+[4.363571] (-) TimerEvent: {}
+[4.464990] (-) TimerEvent: {}
+[4.570016] (-) TimerEvent: {}
+[4.670910] (-) TimerEvent: {}
+[4.771648] (-) TimerEvent: {}
+[4.872933] (-) TimerEvent: {}
+[4.975251] (-) TimerEvent: {}
+[5.076430] (-) TimerEvent: {}
+[5.177676] (-) TimerEvent: {}
+[5.279232] (-) TimerEvent: {}
+[5.380158] (-) TimerEvent: {}
+[5.482785] (-) TimerEvent: {}
+[5.585034] (-) TimerEvent: {}
+[5.686593] (-) TimerEvent: {}
+[5.787891] (-) TimerEvent: {}
+[5.878820] (cinematic_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/cinematic_control', 'build', '--build-base', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build', 'install', '--record', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/cinematic_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'julio', 'LC_TIME': 'es_EC.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/julio', 'OLDPWD': '/home/julio/Desktop/proyecto_tesis', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_EC.UTF-8', 'SYSTEMD_EXEC_PID': '1705', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'julio', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'julio', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/julio-virtual-machine:@/tmp/.ICE-unix/1680,unix/julio-virtual-machine:/tmp/.ICE-unix/1680', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_EC.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/812b97e4_c4f4_4924_b4cc_1cac9c15e382', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_EC.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G1EUX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_EC.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_EC.UTF-8', 'LC_IDENTIFICATION': 'es_EC.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_EC.UTF-8', 'LC_PAPER': 'es_EC.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[5.888943] (-) TimerEvent: {}
+[5.992589] (-) TimerEvent: {}
+[6.093702] (-) TimerEvent: {}
+[6.194854] (-) TimerEvent: {}
+[6.295448] (-) TimerEvent: {}
+[6.396466] (-) TimerEvent: {}
+[6.498022] (-) TimerEvent: {}
+[6.598866] (-) TimerEvent: {}
+[6.625632] (cinematic_control) StdoutLine: {'line': b'running egg_info\n'}
+[6.629387] (cinematic_control) StdoutLine: {'line': b'writing ../../build/cinematic_control/cinematic_control.egg-info/PKG-INFO\n'}
+[6.629867] (cinematic_control) StdoutLine: {'line': b'writing dependency_links to ../../build/cinematic_control/cinematic_control.egg-info/dependency_links.txt\n'}
+[6.630020] (cinematic_control) StdoutLine: {'line': b'writing entry points to ../../build/cinematic_control/cinematic_control.egg-info/entry_points.txt\n'}
+[6.630125] (cinematic_control) StdoutLine: {'line': b'writing requirements to ../../build/cinematic_control/cinematic_control.egg-info/requires.txt\n'}
+[6.630241] (cinematic_control) StdoutLine: {'line': b'writing top-level names to ../../build/cinematic_control/cinematic_control.egg-info/top_level.txt\n'}
+[6.630970] (cinematic_control) StdoutLine: {'line': b"reading manifest file '../../build/cinematic_control/cinematic_control.egg-info/SOURCES.txt'\n"}
+[6.632143] (cinematic_control) StdoutLine: {'line': b"writing manifest file '../../build/cinematic_control/cinematic_control.egg-info/SOURCES.txt'\n"}
+[6.632968] (cinematic_control) StdoutLine: {'line': b'running build\n'}
+[6.633125] (cinematic_control) StdoutLine: {'line': b'running build_py\n'}
+[6.633544] (cinematic_control) StdoutLine: {'line': b'running install\n'}
+[6.633878] (cinematic_control) StdoutLine: {'line': b'running install_lib\n'}
+[6.635609] (cinematic_control) StdoutLine: {'line': b'running install_data\n'}
+[6.637084] (cinematic_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.641251] (cinematic_control) StdoutLine: {'line': b"removing '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.649085] (cinematic_control) StdoutLine: {'line': b'Copying ../../build/cinematic_control/cinematic_control.egg-info to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control-0.0.0-py3.10.egg-info\n'}
+[6.656891] (cinematic_control) StdoutLine: {'line': b'running install_scripts\n'}
+[6.701248] (-) TimerEvent: {}
+[6.727408] (cinematic_control) StdoutLine: {'line': b'Installing velocity_hip1_cmd script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/cinematic_control\n'}
+[6.728477] (cinematic_control) StdoutLine: {'line': b'Installing velocity_hip2_cmd script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/cinematic_control\n'}
+[6.729414] (cinematic_control) StdoutLine: {'line': b'Installing velocity_hip3_cmd script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/cinematic_control\n'}
+[6.730154] (cinematic_control) StdoutLine: {'line': b'Installing velocity_hip4_cmd script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/cinematic_control\n'}
+[6.732501] (cinematic_control) StdoutLine: {'line': b"writing list of installed files to '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/install.log'\n"}
+[6.804769] (-) TimerEvent: {}
+[6.818252] (cinematic_control) CommandEnded: {'returncode': 0}
+[6.838473] (cinematic_control) JobEnded: {'identifier': 'cinematic_control', 'rc': 0}
+[6.844951] (-) EventReactorShutdown: {}

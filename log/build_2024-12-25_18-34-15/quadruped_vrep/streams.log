@@ -1,0 +1,22 @@
+[1.081s] Invoking command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_vrep': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/opt/ros/humble /usr/bin/cmake --build /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_vrep -- -j2 -l2
+[1.493s] [100%] Built target communication
+[1.554s] Invoked command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_vrep' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/opt/ros/humble /usr/bin/cmake --build /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_vrep -- -j2 -l2
+[2.171s] Invoking command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_vrep': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/opt/ros/humble /usr/bin/cmake --install /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_vrep
+[2.279s] -- Install configuration: ""
+[2.285s] -- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/lib/quadruped_vrep/communication
+[2.292s] -- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/ament_index/resource_index/package_run_dependencies/quadruped_vrep
+[2.292s] -- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/ament_index/resource_index/parent_prefix_path/quadruped_vrep
+[2.293s] -- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/environment/ament_prefix_path.sh
+[2.293s] -- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/environment/ament_prefix_path.dsv
+[2.293s] -- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/environment/path.sh
+[2.303s] -- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/environment/path.dsv
+[2.309s] -- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/local_setup.bash
+[2.314s] -- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/local_setup.sh
+[2.314s] -- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/local_setup.zsh
+[2.314s] -- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/local_setup.dsv
+[2.314s] -- Installing: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/package.dsv
+[2.315s] -- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/ament_index/resource_index/packages/quadruped_vrep
+[2.315s] -- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/cmake/quadruped_vrepConfig.cmake
+[2.315s] -- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/cmake/quadruped_vrepConfig-version.cmake
+[2.315s] -- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/package.xml
+[2.329s] Invoked command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_vrep' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/opt/ros/humble /usr/bin/cmake --install /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_vrep

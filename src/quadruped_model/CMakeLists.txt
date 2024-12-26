@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.5)
+project(quadruped_model)
+
+find_package(ament_cmake REQUIRED)
+
+install(DIRECTORY launch
+  launch
+  meshes
+  urdf
+  DESTINATION share/${PROJECT_NAME})
+
+ament_package()

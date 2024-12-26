@@ -1,0 +1,64 @@
+[2.191s] Invoking command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/cinematic_control': AMENT_PREFIX_PATH=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg:/opt/ros/humble PYTHONPATH=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cinematic_control build --build-base /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build install --record /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/install.log --single-version-externally-managed install_data
+[3.043s] running egg_info
+[3.055s] creating ../../build/cinematic_control/cinematic_control.egg-info
+[3.056s] writing ../../build/cinematic_control/cinematic_control.egg-info/PKG-INFO
+[3.095s] writing dependency_links to ../../build/cinematic_control/cinematic_control.egg-info/dependency_links.txt
+[3.103s] writing entry points to ../../build/cinematic_control/cinematic_control.egg-info/entry_points.txt
+[3.103s] writing requirements to ../../build/cinematic_control/cinematic_control.egg-info/requires.txt
+[3.104s] writing top-level names to ../../build/cinematic_control/cinematic_control.egg-info/top_level.txt
+[3.104s] writing manifest file '../../build/cinematic_control/cinematic_control.egg-info/SOURCES.txt'
+[3.108s] reading manifest file '../../build/cinematic_control/cinematic_control.egg-info/SOURCES.txt'
+[3.112s] writing manifest file '../../build/cinematic_control/cinematic_control.egg-info/SOURCES.txt'
+[3.113s] running build
+[3.114s] running build_py
+[3.118s] creating /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build
+[3.118s] creating /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib
+[3.120s] creating /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control
+[3.131s] copying cinematic_control/quadruped_driver_node.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control
+[3.132s] copying cinematic_control/__init__.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control
+[3.132s] copying cinematic_control/velocity_hip4_cmd.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control
+[3.140s] copying cinematic_control/velocity_leg3_cmd.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control
+[3.141s] copying cinematic_control/velocity_hip1_cmd.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control
+[3.143s] copying cinematic_control/velocity_hip2_cmd.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control
+[3.144s] copying cinematic_control/velocity_leg2_cmd.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control
+[3.145s] copying cinematic_control/velocity_leg1_cmd.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control
+[3.147s] copying cinematic_control/velocity_leg4_cmd.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control
+[3.148s] copying cinematic_control/velocity_hip3_cmd.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control
+[3.149s] running install
+[3.150s] running install_lib
+[3.151s] creating /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control
+[3.152s] copying /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control/quadruped_driver_node.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control
+[3.153s] copying /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control/__init__.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control
+[3.154s] copying /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control/velocity_hip4_cmd.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control
+[3.157s] copying /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control/velocity_leg3_cmd.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control
+[3.157s] copying /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control/velocity_hip1_cmd.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control
+[3.157s] copying /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control/velocity_hip2_cmd.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control
+[3.157s] copying /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control/velocity_leg2_cmd.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control
+[3.158s] copying /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control/velocity_leg1_cmd.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control
+[3.159s] copying /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control/velocity_leg4_cmd.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control
+[3.160s] copying /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build/lib/cinematic_control/velocity_hip3_cmd.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control
+[3.161s] byte-compiling /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/quadruped_driver_node.py to quadruped_driver_node.cpython-310.pyc
+[3.161s] byte-compiling /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/__init__.py to __init__.cpython-310.pyc
+[3.162s] byte-compiling /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/velocity_hip4_cmd.py to velocity_hip4_cmd.cpython-310.pyc
+[3.162s] byte-compiling /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/velocity_leg3_cmd.py to velocity_leg3_cmd.cpython-310.pyc
+[3.166s] byte-compiling /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/velocity_hip1_cmd.py to velocity_hip1_cmd.cpython-310.pyc
+[3.167s] byte-compiling /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/velocity_hip2_cmd.py to velocity_hip2_cmd.cpython-310.pyc
+[3.170s] byte-compiling /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/velocity_leg2_cmd.py to velocity_leg2_cmd.cpython-310.pyc
+[3.171s] byte-compiling /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/velocity_leg1_cmd.py to velocity_leg1_cmd.cpython-310.pyc
+[3.172s] byte-compiling /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/velocity_leg4_cmd.py to velocity_leg4_cmd.cpython-310.pyc
+[3.174s] byte-compiling /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control/velocity_hip3_cmd.py to velocity_hip3_cmd.cpython-310.pyc
+[3.179s] running install_data
+[3.180s] creating /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/share/ament_index
+[3.180s] creating /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/share/ament_index/resource_index
+[3.181s] creating /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/share/ament_index/resource_index/packages
+[3.181s] copying resource/cinematic_control -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/share/ament_index/resource_index/packages
+[3.181s] copying package.xml -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/share/cinematic_control
+[3.182s] running install_egg_info
+[3.190s] Copying ../../build/cinematic_control/cinematic_control.egg-info to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control-0.0.0-py3.10.egg-info
+[3.202s] running install_scripts
+[3.281s] Installing velocity_hip1_cmd script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/cinematic_control
+[3.282s] Installing velocity_hip2_cmd script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/cinematic_control
+[3.282s] Installing velocity_hip3_cmd script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/cinematic_control
+[3.283s] Installing velocity_hip4_cmd script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/cinematic_control
+[3.289s] writing list of installed files to '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/install.log'
+[3.337s] Invoked command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/cinematic_control' returned '0': AMENT_PREFIX_PATH=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg:/opt/ros/humble PYTHONPATH=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cinematic_control build --build-base /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build install --record /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/install.log --single-version-externally-managed install_data

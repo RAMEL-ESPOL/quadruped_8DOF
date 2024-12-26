@@ -7,8 +7,9 @@ class JointStatePublisher(Node):
     def __init__(self):
         super().__init__('joint_state_publisher')
         self.publisher_ = self.create_publisher(JointState, '/joint_states', 10)
-        self.target_positions = [-0.57, -1.39, 0.57, 1.39, -0.57, -1.39, 0.57, 1.39]
-        self.current_positions = [0.0, 0.0 , 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        #self.target_positions = [-0.57, -1.39, 0.57, 1.39, 2.57, 4.9, -2.57, -4.9]
+        self.target_positions = [0.57, 1.39, -0.57, -1.39, -2.57, -4.9, 2.57, 4.9]
+        self.current_positions = [0.0, 0.0 , 0.0, 0.0, -3.14, -6.24, 3.14, 6.24]
         self.increment = 0.01  # Incremento por cada paso
         self.timer = self.create_timer(0.1, self.update_joint_states)
 
@@ -25,12 +26,14 @@ class JointStatePublisher(Node):
 
         # Incrementar la posición actual hasta llegar a la posición objetivo
         for i in range(len(self.current_positions)):
-            if i == 2 or i == 3 or i == 6 or i == 7:
+            #if i == 2 or i == 3 or i == 6 or i == 7:
+            if i == 0 or i == 1 or i == 4 or i == 5:
                 if self.current_positions[i] < self.target_positions[i]:
                     self.current_positions[i] += self.increment
                     if self.current_positions[i] > self.target_positions[i]:
                         self.current_positions[i] = self.target_positions[i]
-            if i == 0 or i == 1 or i == 4 or i == 5:
+            #if i == 0 or i == 1 or i == 4 or i == 5:
+            if i == 2 or i == 3 or i == 6 or i == 7:
                 if self.current_positions[i] > self.target_positions[i]:
                     self.current_positions[i] -= self.increment
                     if self.current_positions[i] < self.target_positions[i]:

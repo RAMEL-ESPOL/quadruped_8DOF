@@ -1,6 +1,0 @@
-[0.422s] Invoking command in '/home/maranmen/quadruped_8DOF/build/quadruped_model_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maranmen/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/maranmen/quadruped_8DOF/build/quadruped_model_msg -- -j4 -l4
-[1.007s] [0mCMake Error: The current CMakeCache.txt directory /home/maranmen/quadruped_8DOF/build/quadruped_model_msg/CMakeCache.txt is different than the directory /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model_msg where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[1.293s] [0mCMake Error: The source directory "/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model_msg" does not exist.
-[1.293s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[1.303s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[1.305s] Invoked command in '/home/maranmen/quadruped_8DOF/build/quadruped_model_msg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maranmen/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/maranmen/quadruped_8DOF/build/quadruped_model_msg -- -j4 -l4

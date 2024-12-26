@@ -1,0 +1,44 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 50
+    controller_manager_timeout: 1.0
+    controllers:
+      - joint_state_broadcaster
+      - position_trajectory_controller
+
+joint_state_broadcaster:
+  ros__parameters:
+    type: joint_state_broadcaster/JointStateBroadcaster
+    publish_rate: 50
+
+position_trajectory_controller:
+  ros__parameters:
+    type: position_controllers/JointTrajectoryController
+    joints:
+      - leg_FR_joint
+      - foot_FR_joint
+      - leg_FL_joint
+      - foot_FL_joint
+      - leg_BR_joint
+      - foot_BR_joint
+      - leg_BL_joint
+      - foot_BL_joint
+    state_publish_rate: 50
+    action_monitor_rate: 10
+    constraints:
+      goal_time: 0.0
+      stopped_velocity_tolerance: 0.02
+    trajectory_execution:
+      allowed_execution_duration_margin: 0.2
+      allowed_goal_duration_margin: 0.5
+    position_controller:
+      joint:
+        leg_FR_joint: 0.0
+        foot_FR_joint: 0.0
+        leg_FL_joint: 0.0
+        foot_FL_joint: 0.0
+        leg_BR_joint: 0.0
+        foot_BR_joint: 0.0
+        leg_BL_joint: 0.0
+        foot_BL_joint: 0.0
+

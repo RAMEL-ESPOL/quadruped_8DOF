@@ -10,6 +10,7 @@ setup.py
 ../../build/quadruped_model/quadruped_model.egg-info/zip-safe
 launch/display.launch.py
 launch/gazebo.launch.py
+launch/lift_robot_launch.py
 launch/rviz.launch.py
 meshes/base_link.STL
 meshes/foot_BL_link.STL
@@ -21,9 +22,13 @@ meshes/leg_BR_link.STL
 meshes/leg_FL_link.STL
 meshes/leg_FR_link.STL
 quadruped_model/__init__.py
+quadruped_model/continuous_lift.py
 quadruped_model/continuous_lifter.py
 quadruped_model/move_robot.py
+quadruped_model/vrep_communication.py
 resource/quadruped_model
+script/__init__.py
+script/quadruped_math.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

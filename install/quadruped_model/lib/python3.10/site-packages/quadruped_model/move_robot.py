@@ -56,7 +56,7 @@ class LegController(Node):
     def calcular_trayectoria(self):
         L1 = 0.177  # Longitud del primer segmento en metros
         L2 = 0.180  # Longitud del segundo segmento en metros
-        R = 0.010  # Radio de la rueda en metros
+        R = 0.020  # Radio de la rueda en metros
         num_puntos = 100  # Número de puntos en la trayectoria
 
         # Asegurarse de que se ha recibido el estado de las articulaciones
@@ -91,11 +91,14 @@ class LegController(Node):
             joint_state_msg = JointState()
             joint_state_msg.header.stamp = self.get_clock().now().to_msg()
             joint_state_msg.name = joint_names
-            joint_state_msg.position = [-angulos[0], -angulos[1], angulos[0], -angulos[1]+3.1416, 0.0, 0.0, 0.0, 0.0]  # Example positions
+            #joint_state_msg.position = [-angulos[0], angulos[1] -3.1416, angulos[0], -angulos[1]+3.1416, 
+            #                            -angulos[0] -3.1416, angulos[1] -3.1416, angulos[0] +3.1416 , -angulos[1]+3.1416]  # Example positions
+            joint_state_msg.position = [-angulos[0], angulos[1] -3.1416, angulos[0], -angulos[1]+3.1416, 
+                                        -angulos[0] -3.1416, angulos[1] -3.1416, angulos[0] +3.1416 , -angulos[1]+3.1416]  # Example positions
             self.publisher_.publish(joint_state_msg)
             self.lifted = True
             self.get_logger().info(f'Published joint states: {angulos}')
-            time.sleep(0.1)
+            time.sleep(0.05)
         self.get_logger().info('Robot lifted with joint states.')
 def main(args=None):
     rclpy.init(args=args)
