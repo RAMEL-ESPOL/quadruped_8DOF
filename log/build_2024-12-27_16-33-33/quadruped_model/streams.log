@@ -1,0 +1,27 @@
+[12.406s] Invoking command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model': PYTHONPATH=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/quadruped_model build --build-base /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/build install --record /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/install.log --single-version-externally-managed install_data
+[16.066s] running egg_info
+[16.078s] writing ../../build/quadruped_model/quadruped_model.egg-info/PKG-INFO
+[16.079s] writing dependency_links to ../../build/quadruped_model/quadruped_model.egg-info/dependency_links.txt
+[16.086s] writing entry points to ../../build/quadruped_model/quadruped_model.egg-info/entry_points.txt
+[16.086s] writing requirements to ../../build/quadruped_model/quadruped_model.egg-info/requires.txt
+[16.096s] writing top-level names to ../../build/quadruped_model/quadruped_model.egg-info/top_level.txt
+[16.118s] reading manifest file '../../build/quadruped_model/quadruped_model.egg-info/SOURCES.txt'
+[16.144s] writing manifest file '../../build/quadruped_model/quadruped_model.egg-info/SOURCES.txt'
+[16.152s] running build
+[16.159s] running build_py
+[16.159s] copying quadruped_model/move_leg.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/build/lib/quadruped_model
+[16.186s] running install
+[16.187s] running install_lib
+[16.193s] copying /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/build/lib/quadruped_model/move_leg.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model
+[16.208s] byte-compiling /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model/move_leg.py to move_leg.cpython-310.pyc
+[16.222s] running install_data
+[16.226s] running install_egg_info
+[16.243s] removing '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model-0.0.0-py3.10.egg-info' (and everything under it)
+[16.255s] Copying ../../build/quadruped_model/quadruped_model.egg-info to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model-0.0.0-py3.10.egg-info
+[16.269s] running install_scripts
+[16.534s] Installing continuous_lifter script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/quadruped_model
+[16.553s] Installing move_leg script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/quadruped_model
+[16.554s] Installing move_robot script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/quadruped_model
+[16.559s] Installing vrep_communication script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/quadruped_model
+[16.559s] writing list of installed files to '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/install.log'
+[16.849s] Invoked command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model' returned '0': PYTHONPATH=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/quadruped_model build --build-base /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/build install --record /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/install.log --single-version-externally-managed install_data

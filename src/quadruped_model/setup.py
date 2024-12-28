@@ -31,6 +31,8 @@ setup(
         'console_scripts': [
             'continuous_lifter = quadruped_model.continuous_lifter:main',
             'move_robot = quadruped_model.move_robot:main',
+            'move_leg = quadruped_model.move_leg:main',
+            'move_hip = quadruped_model.move_hip:main',
             'vrep_communication= quadruped_model.vrep_communication:main', 
         ], 
       },

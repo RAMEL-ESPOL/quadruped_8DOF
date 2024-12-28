@@ -1,0 +1,606 @@
+[0.000000] (-) TimerEvent: {}
+[0.001148] (quadruped_model) JobQueued: {'identifier': 'quadruped_model', 'dependencies': OrderedDict()}
+[0.001288] (quadruped_vrep) JobQueued: {'identifier': 'quadruped_vrep', 'dependencies': OrderedDict()}
+[0.001368] (cinematic_control) JobQueued: {'identifier': 'cinematic_control', 'dependencies': OrderedDict([('quadruped_model', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model')])}
+[0.003932] (quadruped_model) JobStarted: {'identifier': 'quadruped_model'}
+[0.062741] (quadruped_vrep) JobStarted: {'identifier': 'quadruped_vrep'}
+[0.097753] (-) TimerEvent: {}
+[0.204213] (-) TimerEvent: {}
+[0.305480] (-) TimerEvent: {}
+[0.409913] (-) TimerEvent: {}
+[0.515684] (-) TimerEvent: {}
+[0.620220] (-) TimerEvent: {}
+[0.726225] (-) TimerEvent: {}
+[0.827245] (-) TimerEvent: {}
+[0.930857] (-) TimerEvent: {}
+[1.033918] (-) TimerEvent: {}
+[1.140990] (-) TimerEvent: {}
+[1.243308] (-) TimerEvent: {}
+[1.347613] (-) TimerEvent: {}
+[1.449359] (-) TimerEvent: {}
+[1.533444] (quadruped_vrep) JobProgress: {'identifier': 'quadruped_vrep', 'progress': 'cmake'}
+[1.534396] (quadruped_vrep) JobProgress: {'identifier': 'quadruped_vrep', 'progress': 'build'}
+[1.536461] (quadruped_vrep) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_vrep', '--', '-j2', '-l2'], 'cwd': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_vrep', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'julio'), ('LC_TIME', 'es_EC.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('VREP_ROOT', '/VREP'), ('HOME', '/home/julio'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_EC.UTF-8'), ('SYSTEMD_EXEC_PID', '6751'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'julio'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'julio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/julio-virtual-machine:@/tmp/.ICE-unix/2170,unix/julio-virtual-machine:/tmp/.ICE-unix/2170'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_EC.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/77eb3a45_912f_41b1_80a9_b4907053f7d0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_EC.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1J3XY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.146'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_EC.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_EC.UTF-8'), ('LC_IDENTIFICATION', 'es_EC.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_vrep'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_EC.UTF-8'), ('LC_PAPER', 'es_EC.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/opt/ros/humble')]), 'shell': False}
+[1.550312] (-) TimerEvent: {}
+[1.653950] (-) TimerEvent: {}
+[1.755232] (-) TimerEvent: {}
+[1.863475] (-) TimerEvent: {}
+[1.972545] (-) TimerEvent: {}
+[2.081000] (-) TimerEvent: {}
+[2.185727] (-) TimerEvent: {}
+[2.308136] (-) TimerEvent: {}
+[2.411902] (-) TimerEvent: {}
+[2.513736] (-) TimerEvent: {}
+[2.589963] (quadruped_vrep) StdoutLine: {'line': b'[100%] Built target communication\n'}
+[2.616129] (-) TimerEvent: {}
+[2.708737] (quadruped_vrep) CommandEnded: {'returncode': 0}
+[2.721310] (-) TimerEvent: {}
+[2.824333] (-) TimerEvent: {}
+[2.925189] (-) TimerEvent: {}
+[3.031385] (-) TimerEvent: {}
+[3.146073] (-) TimerEvent: {}
+[3.275601] (-) TimerEvent: {}
+[3.393026] (-) TimerEvent: {}
+[3.508480] (-) TimerEvent: {}
+[3.620302] (-) TimerEvent: {}
+[3.737232] (-) TimerEvent: {}
+[3.843554] (-) TimerEvent: {}
+[3.988673] (-) TimerEvent: {}
+[4.096423] (-) TimerEvent: {}
+[4.216530] (-) TimerEvent: {}
+[4.328412] (-) TimerEvent: {}
+[4.467149] (-) TimerEvent: {}
+[4.591153] (-) TimerEvent: {}
+[4.745408] (-) TimerEvent: {}
+[4.854162] (-) TimerEvent: {}
+[4.966946] (-) TimerEvent: {}
+[5.088649] (-) TimerEvent: {}
+[5.216441] (-) TimerEvent: {}
+[5.330491] (-) TimerEvent: {}
+[5.437630] (-) TimerEvent: {}
+[5.575278] (-) TimerEvent: {}
+[5.687300] (-) TimerEvent: {}
+[5.797685] (-) TimerEvent: {}
+[5.905147] (-) TimerEvent: {}
+[6.022355] (-) TimerEvent: {}
+[6.135615] (-) TimerEvent: {}
+[6.256882] (-) TimerEvent: {}
+[6.402466] (-) TimerEvent: {}
+[6.531709] (-) TimerEvent: {}
+[6.670603] (quadruped_vrep) JobProgress: {'identifier': 'quadruped_vrep', 'progress': 'install'}
+[6.670942] (-) TimerEvent: {}
+[6.804444] (-) TimerEvent: {}
+[6.914671] (-) TimerEvent: {}
+[7.047896] (-) TimerEvent: {}
+[7.161736] (-) TimerEvent: {}
+[7.303474] (-) TimerEvent: {}
+[7.416245] (-) TimerEvent: {}
+[7.525765] (-) TimerEvent: {}
+[7.648418] (-) TimerEvent: {}
+[7.769607] (-) TimerEvent: {}
+[7.905517] (-) TimerEvent: {}
+[7.963511] (quadruped_vrep) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_vrep'], 'cwd': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_vrep', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'julio'), ('LC_TIME', 'es_EC.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('VREP_ROOT', '/VREP'), ('HOME', '/home/julio'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_EC.UTF-8'), ('SYSTEMD_EXEC_PID', '6751'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'julio'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'julio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/julio-virtual-machine:@/tmp/.ICE-unix/2170,unix/julio-virtual-machine:/tmp/.ICE-unix/2170'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_EC.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/77eb3a45_912f_41b1_80a9_b4907053f7d0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_EC.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1J3XY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.146'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_EC.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_EC.UTF-8'), ('LC_IDENTIFICATION', 'es_EC.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_vrep'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_EC.UTF-8'), ('LC_PAPER', 'es_EC.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/opt/ros/humble')]), 'shell': False}
+[8.057896] (-) TimerEvent: {}
+[8.181708] (-) TimerEvent: {}
+[8.294478] (-) TimerEvent: {}
+[8.418520] (-) TimerEvent: {}
+[8.543552] (-) TimerEvent: {}
+[8.669713] (-) TimerEvent: {}
+[8.762912] (quadruped_vrep) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.784803] (-) TimerEvent: {}
+[8.812741] (quadruped_vrep) StdoutLine: {'line': b'-- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/lib/quadruped_vrep/communication\n'}
+[8.889498] (quadruped_vrep) StdoutLine: {'line': b'-- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/ament_index/resource_index/package_run_dependencies/quadruped_vrep\n'}
+[8.924596] (-) TimerEvent: {}
+[8.967676] (quadruped_vrep) StdoutLine: {'line': b'-- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/ament_index/resource_index/parent_prefix_path/quadruped_vrep\n'}
+[9.002892] (quadruped_vrep) StdoutLine: {'line': b'-- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/environment/ament_prefix_path.sh\n'}
+[9.019891] (quadruped_vrep) StdoutLine: {'line': b'-- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/environment/ament_prefix_path.dsv\n'}
+[9.033683] (-) TimerEvent: {}
+[9.042809] (quadruped_vrep) StdoutLine: {'line': b'-- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/environment/path.sh\n'}
+[9.048237] (quadruped_vrep) StdoutLine: {'line': b'-- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/environment/path.dsv\n'}
+[9.063674] (quadruped_vrep) StdoutLine: {'line': b'-- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/local_setup.bash\n'}
+[9.076108] (quadruped_vrep) StdoutLine: {'line': b'-- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/local_setup.sh\n'}
+[9.115700] (quadruped_vrep) StdoutLine: {'line': b'-- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/local_setup.zsh\n'}
+[9.133363] (quadruped_vrep) StdoutLine: {'line': b'-- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/local_setup.dsv\n'}
+[9.137633] (-) TimerEvent: {}
+[9.150637] (quadruped_vrep) StdoutLine: {'line': b'-- Installing: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/package.dsv\n'}
+[9.155619] (quadruped_vrep) StdoutLine: {'line': b'-- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/ament_index/resource_index/packages/quadruped_vrep\n'}
+[9.170767] (quadruped_vrep) StdoutLine: {'line': b'-- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/cmake/quadruped_vrepConfig.cmake\n'}
+[9.189464] (quadruped_vrep) StdoutLine: {'line': b'-- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/cmake/quadruped_vrepConfig-version.cmake\n'}
+[9.195295] (quadruped_vrep) StdoutLine: {'line': b'-- Up-to-date: /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep/share/quadruped_vrep/package.xml\n'}
+[9.242255] (-) TimerEvent: {}
+[9.257393] (quadruped_vrep) CommandEnded: {'returncode': 0}
+[9.370436] (-) TimerEvent: {}
+[9.499619] (-) TimerEvent: {}
+[9.639114] (-) TimerEvent: {}
+[9.753287] (-) TimerEvent: {}
+[9.893980] (-) TimerEvent: {}
+[10.020225] (-) TimerEvent: {}
+[10.148743] (-) TimerEvent: {}
+[10.268835] (-) TimerEvent: {}
+[10.385046] (-) TimerEvent: {}
+[10.495464] (-) TimerEvent: {}
+[10.628630] (-) TimerEvent: {}
+[10.748114] (-) TimerEvent: {}
+[10.859819] (-) TimerEvent: {}
+[10.971113] (-) TimerEvent: {}
+[11.074224] (-) TimerEvent: {}
+[11.225503] (-) TimerEvent: {}
+[11.368635] (-) TimerEvent: {}
+[11.499020] (-) TimerEvent: {}
+[11.607726] (-) TimerEvent: {}
+[11.735806] (-) TimerEvent: {}
+[11.847725] (-) TimerEvent: {}
+[11.972508] (-) TimerEvent: {}
+[12.086761] (-) TimerEvent: {}
+[12.219524] (-) TimerEvent: {}
+[12.347414] (-) TimerEvent: {}
+[12.484076] (-) TimerEvent: {}
+[12.609519] (-) TimerEvent: {}
+[12.730694] (-) TimerEvent: {}
+[12.859451] (-) TimerEvent: {}
+[12.988253] (-) TimerEvent: {}
+[13.110403] (-) TimerEvent: {}
+[13.234686] (-) TimerEvent: {}
+[13.379958] (-) TimerEvent: {}
+[13.521481] (-) TimerEvent: {}
+[13.647860] (-) TimerEvent: {}
+[13.771042] (-) TimerEvent: {}
+[13.888198] (-) TimerEvent: {}
+[14.036769] (-) TimerEvent: {}
+[14.158392] (-) TimerEvent: {}
+[14.283269] (-) TimerEvent: {}
+[14.395549] (-) TimerEvent: {}
+[14.521529] (-) TimerEvent: {}
+[14.645546] (-) TimerEvent: {}
+[14.762371] (-) TimerEvent: {}
+[14.911288] (-) TimerEvent: {}
+[15.041037] (-) TimerEvent: {}
+[15.114931] (quadruped_vrep) JobEnded: {'identifier': 'quadruped_vrep', 'rc': 0}
+[15.144532] (-) TimerEvent: {}
+[15.259481] (-) TimerEvent: {}
+[15.368546] (-) TimerEvent: {}
+[15.478312] (-) TimerEvent: {}
+[15.587707] (-) TimerEvent: {}
+[15.716559] (-) TimerEvent: {}
+[15.833732] (-) TimerEvent: {}
+[15.944211] (-) TimerEvent: {}
+[16.052526] (quadruped_model) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/quadruped_model', 'build', '--build-base', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/build', 'install', '--record', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/quadruped_model', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'julio', 'LC_TIME': 'es_EC.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'VREP_ROOT': '/VREP', 'HOME': '/home/julio', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_EC.UTF-8', 'SYSTEMD_EXEC_PID': '6751', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'julio', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'julio', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/julio-virtual-machine:@/tmp/.ICE-unix/2170,unix/julio-virtual-machine:/tmp/.ICE-unix/2170', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_EC.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/77eb3a45_912f_41b1_80a9_b4907053f7d0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_EC.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1J3XY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.146', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_EC.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_EC.UTF-8', 'LC_IDENTIFICATION': 'es_EC.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_EC.UTF-8', 'LC_PAPER': 'es_EC.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep'}, 'shell': False}
+[16.112631] (-) TimerEvent: {}
+[16.219040] (-) TimerEvent: {}
+[16.331995] (-) TimerEvent: {}
+[16.440609] (-) TimerEvent: {}
+[16.556584] (-) TimerEvent: {}
+[16.670827] (-) TimerEvent: {}
+[16.782757] (-) TimerEvent: {}
+[16.892464] (-) TimerEvent: {}
+[17.023769] (-) TimerEvent: {}
+[17.136349] (-) TimerEvent: {}
+[17.243258] (-) TimerEvent: {}
+[17.354364] (-) TimerEvent: {}
+[17.473704] (-) TimerEvent: {}
+[17.597330] (-) TimerEvent: {}
+[17.706764] (-) TimerEvent: {}
+[17.822314] (-) TimerEvent: {}
+[17.946054] (-) TimerEvent: {}
+[18.067779] (-) TimerEvent: {}
+[18.179505] (-) TimerEvent: {}
+[18.285469] (-) TimerEvent: {}
+[18.391906] (-) TimerEvent: {}
+[18.514577] (-) TimerEvent: {}
+[18.634582] (-) TimerEvent: {}
+[18.754716] (-) TimerEvent: {}
+[18.864205] (-) TimerEvent: {}
+[18.977216] (-) TimerEvent: {}
+[19.092554] (-) TimerEvent: {}
+[19.200905] (-) TimerEvent: {}
+[19.324705] (-) TimerEvent: {}
+[19.440470] (-) TimerEvent: {}
+[19.553586] (-) TimerEvent: {}
+[19.670350] (-) TimerEvent: {}
+[19.782583] (-) TimerEvent: {}
+[19.897405] (-) TimerEvent: {}
+[20.014300] (-) TimerEvent: {}
+[20.130308] (-) TimerEvent: {}
+[20.242503] (-) TimerEvent: {}
+[20.355556] (-) TimerEvent: {}
+[20.472754] (-) TimerEvent: {}
+[20.590800] (-) TimerEvent: {}
+[20.711301] (-) TimerEvent: {}
+[20.818777] (-) TimerEvent: {}
+[20.936573] (-) TimerEvent: {}
+[21.046450] (-) TimerEvent: {}
+[21.159536] (-) TimerEvent: {}
+[21.272496] (-) TimerEvent: {}
+[21.385030] (-) TimerEvent: {}
+[21.503044] (-) TimerEvent: {}
+[21.606667] (-) TimerEvent: {}
+[21.723433] (-) TimerEvent: {}
+[21.834492] (-) TimerEvent: {}
+[21.956363] (-) TimerEvent: {}
+[22.073546] (-) TimerEvent: {}
+[22.185767] (-) TimerEvent: {}
+[22.300855] (-) TimerEvent: {}
+[22.415276] (-) TimerEvent: {}
+[22.524084] (-) TimerEvent: {}
+[22.629253] (-) TimerEvent: {}
+[22.750397] (-) TimerEvent: {}
+[22.859408] (-) TimerEvent: {}
+[22.963342] (-) TimerEvent: {}
+[23.067486] (-) TimerEvent: {}
+[23.169096] (-) TimerEvent: {}
+[23.278109] (-) TimerEvent: {}
+[23.386574] (-) TimerEvent: {}
+[23.494032] (-) TimerEvent: {}
+[23.599224] (-) TimerEvent: {}
+[23.708535] (-) TimerEvent: {}
+[23.820477] (-) TimerEvent: {}
+[23.929425] (-) TimerEvent: {}
+[24.040701] (-) TimerEvent: {}
+[24.161377] (-) TimerEvent: {}
+[24.270532] (-) TimerEvent: {}
+[24.383565] (-) TimerEvent: {}
+[24.507775] (-) TimerEvent: {}
+[24.624830] (-) TimerEvent: {}
+[24.744430] (-) TimerEvent: {}
+[24.818540] (quadruped_model) StdoutLine: {'line': b'running egg_info\n'}
+[24.842390] (quadruped_model) StdoutLine: {'line': b'writing ../../build/quadruped_model/quadruped_model.egg-info/PKG-INFO\n'}
+[24.993445] (quadruped_model) StdoutLine: {'line': b'writing dependency_links to ../../build/quadruped_model/quadruped_model.egg-info/dependency_links.txt\n'}
+[25.010542] (-) TimerEvent: {}
+[25.024211] (quadruped_model) StdoutLine: {'line': b'writing entry points to ../../build/quadruped_model/quadruped_model.egg-info/entry_points.txt\n'}
+[25.036169] (quadruped_model) StdoutLine: {'line': b'writing requirements to ../../build/quadruped_model/quadruped_model.egg-info/requires.txt\n'}
+[25.049671] (quadruped_model) StdoutLine: {'line': b'writing top-level names to ../../build/quadruped_model/quadruped_model.egg-info/top_level.txt\n'}
+[25.060200] (quadruped_model) StdoutLine: {'line': b"reading manifest file '../../build/quadruped_model/quadruped_model.egg-info/SOURCES.txt'\n"}
+[25.061787] (quadruped_model) StdoutLine: {'line': b"writing manifest file '../../build/quadruped_model/quadruped_model.egg-info/SOURCES.txt'\n"}
+[25.062602] (quadruped_model) StdoutLine: {'line': b'running build\n'}
+[25.075781] (quadruped_model) StdoutLine: {'line': b'running build_py\n'}
+[25.091035] (quadruped_model) StdoutLine: {'line': b'copying quadruped_model/move_robot.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/build/lib/quadruped_model\n'}
+[25.091879] (quadruped_model) StdoutLine: {'line': b'running install\n'}
+[25.099294] (quadruped_model) StdoutLine: {'line': b'running install_lib\n'}
+[25.107272] (quadruped_model) StdoutLine: {'line': b'copying /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/build/lib/quadruped_model/move_robot.py -> /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model\n'}
+[25.116045] (-) TimerEvent: {}
+[25.127692] (quadruped_model) StdoutLine: {'line': b'byte-compiling /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model/move_robot.py to move_robot.cpython-310.pyc\n'}
+[25.177780] (quadruped_model) StdoutLine: {'line': b'running install_data\n'}
+[25.219399] (-) TimerEvent: {}
+[25.244833] (quadruped_model) StdoutLine: {'line': b'running install_egg_info\n'}
+[25.300530] (quadruped_model) StdoutLine: {'line': b"removing '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[25.321781] (quadruped_model) StdoutLine: {'line': b'Copying ../../build/quadruped_model/quadruped_model.egg-info to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model-0.0.0-py3.10.egg-info\n'}
+[25.323462] (-) TimerEvent: {}
+[25.347333] (quadruped_model) StdoutLine: {'line': b'running install_scripts\n'}
+[25.427712] (-) TimerEvent: {}
+[25.536627] (-) TimerEvent: {}
+[25.642281] (-) TimerEvent: {}
+[25.749686] (-) TimerEvent: {}
+[25.861481] (-) TimerEvent: {}
+[25.946065] (quadruped_model) StdoutLine: {'line': b'Installing continuous_lifter script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/quadruped_model\n'}
+[25.965140] (quadruped_model) StdoutLine: {'line': b'Installing move_robot script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/quadruped_model\n'}
+[25.980500] (-) TimerEvent: {}
+[25.991535] (quadruped_model) StdoutLine: {'line': b'Installing vrep_communication script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/quadruped_model\n'}
+[26.027354] (quadruped_model) StdoutLine: {'line': b"writing list of installed files to '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/quadruped_model/install.log'\n"}
+[26.087771] (-) TimerEvent: {}
+[26.199693] (-) TimerEvent: {}
+[26.315086] (-) TimerEvent: {}
+[26.373323] (quadruped_model) CommandEnded: {'returncode': 0}
+[26.425379] (-) TimerEvent: {}
+[26.540608] (-) TimerEvent: {}
+[26.660327] (quadruped_model) JobEnded: {'identifier': 'quadruped_model', 'rc': 0}
+[26.691542] (-) TimerEvent: {}
+[26.698468] (cinematic_control) JobStarted: {'identifier': 'cinematic_control'}
+[26.799659] (-) TimerEvent: {}
+[26.951344] (-) TimerEvent: {}
+[27.103859] (-) TimerEvent: {}
+[27.237173] (-) TimerEvent: {}
+[27.350455] (-) TimerEvent: {}
+[27.476678] (-) TimerEvent: {}
+[27.582333] (-) TimerEvent: {}
+[27.686496] (-) TimerEvent: {}
+[27.806394] (-) TimerEvent: {}
+[27.918573] (-) TimerEvent: {}
+[28.029016] (-) TimerEvent: {}
+[28.141362] (-) TimerEvent: {}
+[28.258737] (-) TimerEvent: {}
+[28.370673] (-) TimerEvent: {}
+[28.486077] (-) TimerEvent: {}
+[28.598311] (-) TimerEvent: {}
+[28.717219] (-) TimerEvent: {}
+[28.831027] (-) TimerEvent: {}
+[28.945355] (-) TimerEvent: {}
+[29.058795] (-) TimerEvent: {}
+[29.171539] (-) TimerEvent: {}
+[29.285416] (-) TimerEvent: {}
+[29.397030] (-) TimerEvent: {}
+[29.509368] (-) TimerEvent: {}
+[29.658652] (-) TimerEvent: {}
+[29.780339] (-) TimerEvent: {}
+[29.892628] (-) TimerEvent: {}
+[30.011678] (-) TimerEvent: {}
+[30.123333] (-) TimerEvent: {}
+[30.233538] (-) TimerEvent: {}
+[30.342348] (-) TimerEvent: {}
+[30.454432] (-) TimerEvent: {}
+[30.571237] (-) TimerEvent: {}
+[30.684414] (-) TimerEvent: {}
+[30.803696] (-) TimerEvent: {}
+[30.920535] (-) TimerEvent: {}
+[31.035362] (-) TimerEvent: {}
+[31.146511] (-) TimerEvent: {}
+[31.259105] (-) TimerEvent: {}
+[31.376275] (-) TimerEvent: {}
+[31.487699] (-) TimerEvent: {}
+[31.600167] (-) TimerEvent: {}
+[31.708212] (-) TimerEvent: {}
+[31.827960] (-) TimerEvent: {}
+[31.933232] (-) TimerEvent: {}
+[32.045696] (-) TimerEvent: {}
+[32.156560] (-) TimerEvent: {}
+[32.270849] (-) TimerEvent: {}
+[32.395115] (-) TimerEvent: {}
+[32.499465] (-) TimerEvent: {}
+[32.618772] (-) TimerEvent: {}
+[32.737113] (-) TimerEvent: {}
+[32.842144] (-) TimerEvent: {}
+[32.950573] (-) TimerEvent: {}
+[33.065422] (-) TimerEvent: {}
+[33.185315] (-) TimerEvent: {}
+[33.303299] (-) TimerEvent: {}
+[33.412746] (-) TimerEvent: {}
+[33.521704] (-) TimerEvent: {}
+[33.637856] (-) TimerEvent: {}
+[33.762518] (-) TimerEvent: {}
+[33.879158] (-) TimerEvent: {}
+[33.995201] (-) TimerEvent: {}
+[34.112556] (-) TimerEvent: {}
+[34.241537] (-) TimerEvent: {}
+[34.357232] (-) TimerEvent: {}
+[34.469540] (-) TimerEvent: {}
+[34.591378] (-) TimerEvent: {}
+[34.698664] (-) TimerEvent: {}
+[34.816159] (-) TimerEvent: {}
+[34.927413] (-) TimerEvent: {}
+[35.042372] (-) TimerEvent: {}
+[35.162671] (-) TimerEvent: {}
+[35.280383] (-) TimerEvent: {}
+[35.391661] (-) TimerEvent: {}
+[35.512645] (-) TimerEvent: {}
+[35.674173] (-) TimerEvent: {}
+[35.782272] (-) TimerEvent: {}
+[35.903447] (-) TimerEvent: {}
+[36.020359] (-) TimerEvent: {}
+[36.123087] (-) TimerEvent: {}
+[36.237886] (-) TimerEvent: {}
+[36.350769] (-) TimerEvent: {}
+[36.471310] (-) TimerEvent: {}
+[36.590437] (-) TimerEvent: {}
+[36.702472] (-) TimerEvent: {}
+[36.812180] (-) TimerEvent: {}
+[36.936311] (-) TimerEvent: {}
+[37.047672] (-) TimerEvent: {}
+[37.169370] (-) TimerEvent: {}
+[37.281500] (-) TimerEvent: {}
+[37.385626] (-) TimerEvent: {}
+[37.510694] (-) TimerEvent: {}
+[37.629531] (-) TimerEvent: {}
+[37.745584] (-) TimerEvent: {}
+[37.860409] (-) TimerEvent: {}
+[37.983267] (-) TimerEvent: {}
+[38.090083] (-) TimerEvent: {}
+[38.204427] (-) TimerEvent: {}
+[38.327438] (-) TimerEvent: {}
+[38.441507] (-) TimerEvent: {}
+[38.560161] (-) TimerEvent: {}
+[38.683663] (-) TimerEvent: {}
+[38.793532] (-) TimerEvent: {}
+[38.909861] (-) TimerEvent: {}
+[39.029465] (-) TimerEvent: {}
+[39.138104] (-) TimerEvent: {}
+[39.251428] (-) TimerEvent: {}
+[39.369569] (-) TimerEvent: {}
+[39.482398] (-) TimerEvent: {}
+[39.594847] (-) TimerEvent: {}
+[39.706350] (-) TimerEvent: {}
+[39.821071] (-) TimerEvent: {}
+[39.931421] (-) TimerEvent: {}
+[40.043570] (-) TimerEvent: {}
+[40.153511] (-) TimerEvent: {}
+[40.266507] (-) TimerEvent: {}
+[40.378497] (-) TimerEvent: {}
+[40.497368] (-) TimerEvent: {}
+[40.614646] (-) TimerEvent: {}
+[40.724441] (-) TimerEvent: {}
+[40.840032] (-) TimerEvent: {}
+[40.949014] (-) TimerEvent: {}
+[41.069393] (-) TimerEvent: {}
+[41.172515] (-) TimerEvent: {}
+[41.281005] (-) TimerEvent: {}
+[41.387579] (-) TimerEvent: {}
+[41.491493] (-) TimerEvent: {}
+[41.605689] (-) TimerEvent: {}
+[41.719639] (-) TimerEvent: {}
+[41.828432] (-) TimerEvent: {}
+[41.937429] (-) TimerEvent: {}
+[42.049722] (-) TimerEvent: {}
+[42.167879] (-) TimerEvent: {}
+[42.280449] (-) TimerEvent: {}
+[42.401815] (-) TimerEvent: {}
+[42.529248] (-) TimerEvent: {}
+[42.641406] (-) TimerEvent: {}
+[42.755523] (-) TimerEvent: {}
+[42.868704] (-) TimerEvent: {}
+[42.982150] (-) TimerEvent: {}
+[43.095439] (-) TimerEvent: {}
+[43.210319] (-) TimerEvent: {}
+[43.314046] (-) TimerEvent: {}
+[43.435566] (-) TimerEvent: {}
+[43.544226] (-) TimerEvent: {}
+[43.673229] (-) TimerEvent: {}
+[43.787283] (-) TimerEvent: {}
+[43.907170] (-) TimerEvent: {}
+[44.015088] (-) TimerEvent: {}
+[44.134399] (-) TimerEvent: {}
+[44.249287] (-) TimerEvent: {}
+[44.365536] (-) TimerEvent: {}
+[44.486473] (-) TimerEvent: {}
+[44.598479] (-) TimerEvent: {}
+[44.715640] (-) TimerEvent: {}
+[44.827666] (-) TimerEvent: {}
+[44.947387] (-) TimerEvent: {}
+[45.060101] (-) TimerEvent: {}
+[45.171262] (-) TimerEvent: {}
+[45.283416] (-) TimerEvent: {}
+[45.392331] (-) TimerEvent: {}
+[45.509749] (-) TimerEvent: {}
+[45.618661] (-) TimerEvent: {}
+[45.727727] (-) TimerEvent: {}
+[45.847615] (-) TimerEvent: {}
+[45.963220] (-) TimerEvent: {}
+[46.074292] (-) TimerEvent: {}
+[46.183139] (-) TimerEvent: {}
+[46.297421] (-) TimerEvent: {}
+[46.403306] (-) TimerEvent: {}
+[46.517607] (-) TimerEvent: {}
+[46.697414] (-) TimerEvent: {}
+[46.815383] (-) TimerEvent: {}
+[46.929460] (-) TimerEvent: {}
+[47.041206] (-) TimerEvent: {}
+[47.153481] (-) TimerEvent: {}
+[47.267232] (-) TimerEvent: {}
+[47.371381] (-) TimerEvent: {}
+[47.485026] (-) TimerEvent: {}
+[47.593507] (-) TimerEvent: {}
+[47.705536] (-) TimerEvent: {}
+[47.818666] (-) TimerEvent: {}
+[47.935466] (-) TimerEvent: {}
+[48.051074] (-) TimerEvent: {}
+[48.164590] (-) TimerEvent: {}
+[48.274257] (-) TimerEvent: {}
+[48.390780] (-) TimerEvent: {}
+[48.529619] (-) TimerEvent: {}
+[48.642451] (-) TimerEvent: {}
+[48.677722] (cinematic_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/cinematic_control', 'build', '--build-base', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build', 'install', '--record', '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/cinematic_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'julio', 'LC_TIME': 'es_EC.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'VREP_ROOT': '/VREP', 'HOME': '/home/julio', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_EC.UTF-8', 'SYSTEMD_EXEC_PID': '6751', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'julio', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'julio', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/julio-virtual-machine:@/tmp/.ICE-unix/2170,unix/julio-virtual-machine:/tmp/.ICE-unix/2170', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_EC.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/77eb3a45_912f_41b1_80a9_b4907053f7d0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_EC.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1J3XY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.146', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_EC.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_EC.UTF-8', 'LC_IDENTIFICATION': 'es_EC.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_EC.UTF-8', 'LC_PAPER': 'es_EC.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep'}, 'shell': False}
+[48.834445] (-) TimerEvent: {}
+[48.941668] (-) TimerEvent: {}
+[49.053055] (-) TimerEvent: {}
+[49.166500] (-) TimerEvent: {}
+[49.282765] (-) TimerEvent: {}
+[49.396706] (-) TimerEvent: {}
+[49.518470] (-) TimerEvent: {}
+[49.629585] (-) TimerEvent: {}
+[49.740467] (-) TimerEvent: {}
+[49.859190] (-) TimerEvent: {}
+[49.966426] (-) TimerEvent: {}
+[50.068150] (-) TimerEvent: {}
+[50.179317] (-) TimerEvent: {}
+[50.290117] (-) TimerEvent: {}
+[50.399417] (-) TimerEvent: {}
+[50.507430] (-) TimerEvent: {}
+[50.615326] (-) TimerEvent: {}
+[50.728137] (-) TimerEvent: {}
+[50.840941] (-) TimerEvent: {}
+[50.965615] (-) TimerEvent: {}
+[51.075800] (-) TimerEvent: {}
+[51.183343] (-) TimerEvent: {}
+[51.296513] (-) TimerEvent: {}
+[51.410556] (-) TimerEvent: {}
+[51.530325] (-) TimerEvent: {}
+[51.635573] (-) TimerEvent: {}
+[51.750661] (-) TimerEvent: {}
+[51.856614] (-) TimerEvent: {}
+[51.968722] (-) TimerEvent: {}
+[52.092171] (-) TimerEvent: {}
+[52.200982] (-) TimerEvent: {}
+[52.312373] (-) TimerEvent: {}
+[52.428317] (-) TimerEvent: {}
+[52.550497] (-) TimerEvent: {}
+[52.660703] (-) TimerEvent: {}
+[52.770386] (-) TimerEvent: {}
+[52.889400] (-) TimerEvent: {}
+[53.028630] (-) TimerEvent: {}
+[53.143622] (-) TimerEvent: {}
+[53.255035] (-) TimerEvent: {}
+[53.369413] (-) TimerEvent: {}
+[53.489213] (-) TimerEvent: {}
+[53.592696] (-) TimerEvent: {}
+[53.702905] (-) TimerEvent: {}
+[53.813112] (-) TimerEvent: {}
+[53.927723] (-) TimerEvent: {}
+[54.051491] (-) TimerEvent: {}
+[54.159342] (-) TimerEvent: {}
+[54.281452] (-) TimerEvent: {}
+[54.400406] (-) TimerEvent: {}
+[54.521132] (-) TimerEvent: {}
+[54.626635] (-) TimerEvent: {}
+[54.739882] (-) TimerEvent: {}
+[54.851330] (-) TimerEvent: {}
+[54.958461] (-) TimerEvent: {}
+[55.076578] (-) TimerEvent: {}
+[55.189391] (-) TimerEvent: {}
+[55.296367] (-) TimerEvent: {}
+[55.405442] (-) TimerEvent: {}
+[55.517728] (-) TimerEvent: {}
+[55.638697] (-) TimerEvent: {}
+[55.762281] (-) TimerEvent: {}
+[55.873594] (-) TimerEvent: {}
+[55.982973] (-) TimerEvent: {}
+[56.091148] (-) TimerEvent: {}
+[56.195007] (-) TimerEvent: {}
+[56.304854] (-) TimerEvent: {}
+[56.412761] (-) TimerEvent: {}
+[56.527660] (-) TimerEvent: {}
+[56.651256] (-) TimerEvent: {}
+[56.766881] (-) TimerEvent: {}
+[56.887265] (-) TimerEvent: {}
+[56.994690] (-) TimerEvent: {}
+[57.108283] (-) TimerEvent: {}
+[57.220700] (-) TimerEvent: {}
+[57.332853] (-) TimerEvent: {}
+[57.440667] (-) TimerEvent: {}
+[57.556649] (-) TimerEvent: {}
+[57.666965] (-) TimerEvent: {}
+[57.775301] (-) TimerEvent: {}
+[57.897586] (-) TimerEvent: {}
+[58.008553] (-) TimerEvent: {}
+[58.122276] (-) TimerEvent: {}
+[58.232507] (-) TimerEvent: {}
+[58.347578] (-) TimerEvent: {}
+[58.456182] (-) TimerEvent: {}
+[58.483175] (cinematic_control) StdoutLine: {'line': b'running egg_info\n'}
+[58.508760] (cinematic_control) StdoutLine: {'line': b'writing ../../build/cinematic_control/cinematic_control.egg-info/PKG-INFO\n'}
+[58.527272] (cinematic_control) StdoutLine: {'line': b'writing dependency_links to ../../build/cinematic_control/cinematic_control.egg-info/dependency_links.txt\n'}
+[58.547621] (cinematic_control) StdoutLine: {'line': b'writing entry points to ../../build/cinematic_control/cinematic_control.egg-info/entry_points.txt\n'}
+[58.580233] (cinematic_control) StdoutLine: {'line': b'writing requirements to ../../build/cinematic_control/cinematic_control.egg-info/requires.txt\n'}
+[58.581739] (-) TimerEvent: {}
+[58.616104] (cinematic_control) StdoutLine: {'line': b'writing top-level names to ../../build/cinematic_control/cinematic_control.egg-info/top_level.txt\n'}
+[58.656659] (cinematic_control) StdoutLine: {'line': b"reading manifest file '../../build/cinematic_control/cinematic_control.egg-info/SOURCES.txt'\n"}
+[58.692773] (-) TimerEvent: {}
+[58.706288] (cinematic_control) StdoutLine: {'line': b"writing manifest file '../../build/cinematic_control/cinematic_control.egg-info/SOURCES.txt'\n"}
+[58.723458] (cinematic_control) StdoutLine: {'line': b'running build\n'}
+[58.738666] (cinematic_control) StdoutLine: {'line': b'running build_py\n'}
+[58.775670] (cinematic_control) StdoutLine: {'line': b'running install\n'}
+[58.799102] (cinematic_control) StdoutLine: {'line': b'running install_lib\n'}
+[58.799819] (-) TimerEvent: {}
+[58.872708] (cinematic_control) StdoutLine: {'line': b'running install_data\n'}
+[58.889053] (cinematic_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[58.901454] (-) TimerEvent: {}
+[58.971249] (cinematic_control) StdoutLine: {'line': b"removing '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[58.998577] (cinematic_control) StdoutLine: {'line': b'Copying ../../build/cinematic_control/cinematic_control.egg-info to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control-0.0.0-py3.10.egg-info\n'}
+[59.004653] (-) TimerEvent: {}
+[59.031711] (cinematic_control) StdoutLine: {'line': b'running install_scripts\n'}
+[59.114377] (-) TimerEvent: {}
+[59.225523] (-) TimerEvent: {}
+[59.354029] (-) TimerEvent: {}
+[59.461369] (-) TimerEvent: {}
+[59.590156] (-) TimerEvent: {}
+[59.596256] (cinematic_control) StdoutLine: {'line': b'Installing velocity_hip1_cmd script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/cinematic_control\n'}
+[59.610309] (cinematic_control) StdoutLine: {'line': b'Installing velocity_hip2_cmd script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/cinematic_control\n'}
+[59.628152] (cinematic_control) StdoutLine: {'line': b'Installing velocity_hip3_cmd script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/cinematic_control\n'}
+[59.636480] (cinematic_control) StdoutLine: {'line': b'Installing velocity_hip4_cmd script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/cinematic_control\n'}
+[59.647608] (cinematic_control) StdoutLine: {'line': b"writing list of installed files to '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/install.log'\n"}
+[59.691263] (-) TimerEvent: {}
+[59.808975] (-) TimerEvent: {}
+[59.927168] (-) TimerEvent: {}
+[60.035678] (-) TimerEvent: {}
+[60.168532] (cinematic_control) CommandEnded: {'returncode': 0}
+[60.180716] (-) TimerEvent: {}
+[60.297964] (-) TimerEvent: {}
+[60.413557] (cinematic_control) JobEnded: {'identifier': 'cinematic_control', 'rc': 0}
+[60.450713] (-) TimerEvent: {}
+[60.453567] (-) EventReactorShutdown: {}

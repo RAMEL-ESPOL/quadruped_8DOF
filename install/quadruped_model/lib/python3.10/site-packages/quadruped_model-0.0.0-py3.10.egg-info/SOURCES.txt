@@ -24,6 +24,8 @@ meshes/leg_FR_link.STL
 quadruped_model/__init__.py
 quadruped_model/continuous_lift.py
 quadruped_model/continuous_lifter.py
+quadruped_model/move_hip.py
+quadruped_model/move_leg.py
 quadruped_model/move_robot.py
 quadruped_model/vrep_communication.py
 resource/quadruped_model

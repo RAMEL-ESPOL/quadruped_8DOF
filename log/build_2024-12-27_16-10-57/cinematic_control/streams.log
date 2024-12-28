@@ -1,0 +1,24 @@
+[8.534s] Invoking command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/cinematic_control': AMENT_PREFIX_PATH=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control:/opt/ros/humble PYTHONPATH=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cinematic_control build --build-base /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build install --record /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/install.log --single-version-externally-managed install_data
+[12.371s] running egg_info
+[12.382s] writing ../../build/cinematic_control/cinematic_control.egg-info/PKG-INFO
+[12.395s] writing dependency_links to ../../build/cinematic_control/cinematic_control.egg-info/dependency_links.txt
+[12.408s] writing entry points to ../../build/cinematic_control/cinematic_control.egg-info/entry_points.txt
+[12.408s] writing requirements to ../../build/cinematic_control/cinematic_control.egg-info/requires.txt
+[12.413s] writing top-level names to ../../build/cinematic_control/cinematic_control.egg-info/top_level.txt
+[12.444s] reading manifest file '../../build/cinematic_control/cinematic_control.egg-info/SOURCES.txt'
+[12.478s] writing manifest file '../../build/cinematic_control/cinematic_control.egg-info/SOURCES.txt'
+[12.478s] running build
+[12.478s] running build_py
+[12.493s] running install
+[12.497s] running install_lib
+[12.529s] running install_data
+[12.533s] running install_egg_info
+[12.563s] removing '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control-0.0.0-py3.10.egg-info' (and everything under it)
+[12.564s] Copying ../../build/cinematic_control/cinematic_control.egg-info to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages/cinematic_control-0.0.0-py3.10.egg-info
+[12.573s] running install_scripts
+[12.863s] Installing velocity_hip1_cmd script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/cinematic_control
+[12.870s] Installing velocity_hip2_cmd script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/cinematic_control
+[12.870s] Installing velocity_hip3_cmd script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/cinematic_control
+[12.885s] Installing velocity_hip4_cmd script to /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/cinematic_control
+[12.887s] writing list of installed files to '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/install.log'
+[13.146s] Invoked command in '/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/src/cinematic_control' returned '0': AMENT_PREFIX_PATH=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_vrep:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control:/opt/ros/humble PYTHONPATH=/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages:/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/cinematic_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cinematic_control build --build-base /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/build install --record /home/julio/Desktop/proyecto_tesis/quadruped_8DOF/build/cinematic_control/install.log --single-version-externally-managed install_data
