@@ -133,7 +133,7 @@ class LegController(Node):
                     self.lifted = True
                     self.get_logger().info(f'Published joint states: {angulos}')
                     
-                    time.sleep(0.1)
+                    time.sleep(0.05)
                 self.get_logger().info('Robot lifted with joint states.')
                 for angulos in angulos_articulaciones_cadera:
                     joint_state_msg = JointState()

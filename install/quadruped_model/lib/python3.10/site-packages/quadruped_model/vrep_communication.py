@@ -19,6 +19,7 @@ class Vrep_Communication(Node):
         # Crear cliente y conectarse al servidor
         self.client = RemoteAPIClient()
         self.sim = self.client.getObject('sim')
+        self.scriptHandle = self.sim.getObject('/moveJoints')
 
         try:
             # Comprobar conexión
@@ -31,20 +32,8 @@ class Vrep_Communication(Node):
 
     def listener_callback(self, msg: JointState):
         print("joa")
-        joint_goals = msg
-        self.get_logger().info(f"{joint_goals._name}")
+        success = self.sim.callScriptFunction('sysCall_joint', self.scriptHandle, list(msg._position))
 
-        if len(self.joint_handles) ==  0:
-            for joint in joint_goals._name:
-                handle = self.sim.getObject(f"/base_link_respondable/{joint}")
-                if handle != -1:
-                    self.joint_handles.append(handle) #se busca el handle del objeto a partir de su nombre, el handle es un número
-                    self.get_logger().info(f"Handle de {joint}: {handle}")
-                else:
-                    self.get_logger().error(f"No se encontró handle para {joint}")
-
-        for i in range(len(self.joint_handles)):
-            self.sim.setJointTargetPosition(self.joint_handles[i], joint_goals._position[i])
 
 def main(args=None):
     rclpy.init(args=args)
