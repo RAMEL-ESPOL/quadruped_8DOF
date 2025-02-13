@@ -61,10 +61,10 @@ class LegController(Node):
         theta1 = np.arctan2(z, x) - np.arctan2(self.L2 * np.sin(theta2), self.L1 + self.L2 * np.cos(theta2))
         return theta1, theta2
 
-    def generar_trayectoria_cadera(self, x_inicial, amplitud, num_puntos):
-        """Genera una trayectoria rectilínea para la cadera en el eje X."""
-        x = np.linspace(x_inicial - amplitud, x_inicial , num_puntos)
-        z = np.full_like(x, 0.0)  # Mantener altura constante de la cadera
+    def generar_trayectoria_cadera(self, x_punta_pie, amplitud):
+        """Genera una trayectoria rectilínea de la cadera, fijando la punta del pie."""
+        x = np.linspace(x_punta_pie, x_punta_pie + amplitud, self.num_puntos)
+        z = np.full_like(x, 0.0)
         return x, z
 
     def generar_trayectoria_cicloide(self, punto_inicial, R, num_puntos=100):
@@ -88,7 +88,7 @@ class LegController(Node):
         # Generar la trayectoria cicloidal desde la posición actual
         x_trayectoria, y_trayectoria = self.generar_trayectoria_cicloide((x_actual, y_actual), R, num_puntos)
         self.punto_pie = [x_trayectoria[0],y_trayectoria[0]]
-        x_trayectoria_recta, z_trayectoria_recta = self.generar_trayectoria_cadera(self.punto_pie[0], 2*np.pi*R, self.num_puntos)
+        x_trayectoria_recta, z_trayectoria_recta = self.generar_trayectoria_cadera(self.punto_pie[0], 2*np.pi*R)
     
         angulos_articulaciones_cadera = []
         for x, z in zip(x_trayectoria_recta, z_trayectoria_recta):
