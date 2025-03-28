@@ -1,5 +1,0 @@
-  File "/home/julio/Desktop/proyecto_tesis/quadruped_8DOF/install/quadruped_model/lib/python3.10/site-packages/quadruped_model/move_robot.py", line 107
-    if i == len(angulos_articulaciones)
-                                       ^
-SyntaxError: expected ':'
-
